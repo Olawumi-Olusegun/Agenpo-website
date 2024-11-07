@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html, body {
+    font-family: "Proxima Nova", system-ui, sans-serif;
+    min-height: 100dvh;
+    background-color: #FAFAFA;
+    font-family: "font-Manrope", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+  }
+}
