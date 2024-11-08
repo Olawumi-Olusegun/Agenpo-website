@@ -69,7 +69,7 @@ export const AccordionItem = ({ children, value, trigger, ...props }: MyAccordio
 
             </header>
             <div
-                className="overflow-y-hidden transition-all duration-200"
+                className="overflow-y-hidden transition-all duration-300"
                 style={{ height: open ? listItemRef.current?.offsetHeight || 0 : 0 }}
             >
                 <div ref={listItemRef} className="p-6 text-lg font-Manrope">

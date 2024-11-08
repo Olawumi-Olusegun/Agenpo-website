@@ -44,7 +44,7 @@ export default function MobileNav() {
                     className="text-2xl text-primary-90 lg:hidden"
                 >
                     <svg
-                        className="w-8 h-8 hover:bg-gray-50 text-gray-700 duration-300 rounded-md p-1"
+                        className="w-8 h-8 hover:bg-gray-50 text-primary duration-300 rounded-md p-1"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -75,7 +75,7 @@ export default function MobileNav() {
                         <img src="./assets/images/Agenpo-logo-large.png" alt="Agenpo Logo" className="w-full h-full object-cover object-center" />
                     </Link>
                 </div>
-                <nav className="flex flex-col gap-4 px-6 pt-1.5 pr-2 overflow-y-scroll maiaddy-custom-scrollbar">
+                <nav className="flex flex-col gap-4 px-6 pt-1.5 pr-2 overflow-y-scroll agenpo-custom-scrollbar">
                     {links.map((link, index) => (
                         <div key={`${link.label}-${index}`}>
 
