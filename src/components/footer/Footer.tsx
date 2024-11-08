@@ -6,7 +6,7 @@ const Footer = () => {
 
             <div className="grid grid-cols-12 w-full max-w-[1280px] mx-auto pt-24 px-5 lg:px-0 ">
                 <div className="col-span-4 flex flex-col gap-3 text-lg lg:max-w-[295px]">
-                    <p className="text-[#616161]">Transforming the Agribusiness value chain in Africa.</p>
+                    <p className="text-gray-700">Transforming the Agribusiness value chain in Africa.</p>
                     <div className="flex items-center flex-wrap gap-5 mt-4">
                         <Link to={"#"}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
 
                 <div className="col-span-1 flex flex-col gap-3">
-                    <h2>Products</h2>
+                    <h2 className="text-title text-sm uppercase">Products</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
                         <Link to={"#"}>FarmSider</Link>
                         <Link to={"/AgriGeitor"}>AgriGeitor</Link>
@@ -64,7 +64,7 @@ const Footer = () => {
                 </div>
 
                 <div className="col-span-1 flex flex-col gap-3">
-                    <h2>RESOURCES</h2>
+                    <h2 className="text-title text-sm uppercase">RESOURCES</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
                         <Link to={"/about-us"}>About Us</Link>
                         <Link to={"/careers"}>Careers</Link>
@@ -77,11 +77,25 @@ const Footer = () => {
                 </div>
 
                 <div className="col-span-2 flex flex-col gap-3">
-                    <h2>LEGAL</h2>
+                    <h2 className="text-title text-sm uppercase">LEGAL</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
                         <Link to={"#"}>Privacy Policy</Link>
                         <Link to={"#"}>Terms & Conditions</Link>
                         <Link to={"#"}>Anti-money laundering</Link>
+                    </div>
+                </div>
+
+                <div className="col-span-4 flex flex-col gap-3">
+                    <div className="flex flex-col self-end gap-5 text-gray-700 rounded-md shadow-xl bg-white w-full lg:max-w-[283px] p-5">
+                        <h2 className="font-bold font-Manrope text-gray-800 text-xl">Get the most out of Inspektr - Download the user manual.</h2>
+                        <div className="flex items-center">
+                            <button className="group self-start flex items-center justify-center gap-3 bg-primary hover:bg-opacity-90 duration-300 w-fit text-white border border-transparent px-6 py-3 rounded-md">
+                                Download
+                            </button>
+                            <div className=" -mr-5 -mb-5">
+                                <img src="./assets/images/paper.png" alt="paper-image" className="pointer-events-none w-full h-full object-cover" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
