@@ -31,7 +31,7 @@ type DescriptionProps = {
 };
 
 const Description = ({ children, className }: DescriptionProps) => (
-    <p className={cn("text-gray-700 w-full lg:max-w-[1019px] mx-auto text-lg", className)}>
+    <p className={cn("text-gray-700 font-Manrope text-xl w-full lg:max-w-[1019px] mx-auto", className)}>
         {children}
     </p>
 );

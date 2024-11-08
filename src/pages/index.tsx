@@ -7,7 +7,7 @@ const Home = () => {
             <Hero>
                 <Hero.Title>Get Into Agribusiness</Hero.Title>
                 <Hero.Description>
-                    AgriGeitor is the mobile app for individual aggregators. Simply put, aggregators aggregate produce from different locations and when bulk volume is achieved, use the app to locate the nearest available warehouse where the bulk aggregated produce can be taken for certification and sale.
+                    Explore more ways to get into agribusiness beyond farming. Now you can get in as a transporter, aggregator, food processor, warehouse owner or trader, in just minutes.
                 </Hero.Description>
 
                 <Hero.ButtonGroup>
@@ -45,8 +45,11 @@ const Home = () => {
                 <SolutionsSection.Grid>
                     <SolutionsSection.GridItem
                         image="./assets/images/Coproma.png"
-                        href="/Coproma" title="Coproma"
-                        description="Farmers can now access a larger pool of buyers year-round for their produce with FarmSider, in addition to the all-important input financing."
+                        href="/Coproma"
+                        title="Coproma"
+                        className="pr-14 "
+                        imageStyle="absolute bottom-0 right-0  w-40 -mr-3"
+                        description="Food processors and manufacturers can access, order, receive, and pay for certified produce raw materials, while being able to lock-in prices for future delivery."
                     />
                     <SolutionsSection.GridItem
                         image="./assets/images/FarmSider.png"
@@ -95,13 +98,13 @@ const Home = () => {
             </SolutionsSection>
 
 
-            <section className="relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
+            <section className="relative bg-white rounded-md w-full lg:max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
                 <img src="./assets/images/leaf-left.png" alt="" className="left-0 top-0 pointer-events-none" />
                 <img src="./assets/images/leaf-left.png" alt="" className="absolute right-0 bottom-0 rotate-180 pointer-events-none" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-3">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-3 w-full p-5 lg:p-0 lg:max-w-[690px] mx-auto">
                     <h2 className="font-Manrope text-5xl text-title text-center font-bold ">Don't have a registered agribusiness?</h2>
-                    <p className="text-center text-gray-600 ">Registering your business is the first crucial step towards unlocking a world of growth opportunities. Start your journey to success and register your business today.</p>
-                    <button className="group flex items-center justify-center gap-3 bg-primary hover:bg-opacity-90 duration-300 w-full lg:w-fit text-white border border-transparent px-6 py-3 rounded-2xl">
+                    <p className="text-center text-gray-600 text-lg font-Manrope ">Registering your business is the first crucial step towards unlocking a world of growth opportunities. Start your journey to success and register your business today.</p>
+                    <button className="group flex items-center justify-center gap-3 bg-primary hover:bg-opacity-90 duration-300 w-fit text-white border border-transparent px-6 py-3 rounded-2xl">
                         <span>Register your Agribusiness</span>
                         <svg className="flex-shrink-0 group-hover:translate-x-1 transition duration-300" width="10" height="12" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.5 1.25L8.25 8L1.5 14.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

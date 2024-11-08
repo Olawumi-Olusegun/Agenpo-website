@@ -60,7 +60,7 @@ const Title = ({ className, children }: TitleProps) => (
 
 interface DescriptionProps extends HtmlHTMLAttributes<HTMLParagraphElement> { }
 const Description = ({ className, children, ...props }: DescriptionProps) => (
-    <p className={cn("text-center text-gray-600", className)} {...props}>{children}</p>
+    <p className={cn("text-center text-xl font-Manrope text-gray-600", className)} {...props}>{children}</p>
 );
 
 
@@ -87,7 +87,7 @@ const LogoLink = ({ className, href = "/" }: LogoLinkProps) => (
 
 interface SolutionsSectionProps extends HtmlHTMLAttributes<HTMLDivElement> { }
 const SolutionsSection = ({ children }: SolutionsSectionProps) => (
-    <section className="w-full max-w-[1216px] mx-auto py-5 px-5 lg:px-0 ">
+    <section className="relative overflow-hidden h w-full max-w-[1216px] mx-auto py-5 px-5 lg:px-0 ">
         {children}
     </section>
 );
