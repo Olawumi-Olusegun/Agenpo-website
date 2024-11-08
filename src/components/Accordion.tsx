@@ -62,17 +62,17 @@ export const AccordionItem = ({ children, value, trigger, ...props }: MyAccordio
             <header
                 role="button"
                 onClick={() => setSelected(open ? null : value)}
-                className="flex justify-between items-center p-4 font-semibold  px-6"
+                className="flex justify-between items-center p-4 font-semibold px-6 text-xl"
             >
                 {trigger}
                 <Plus size={24} className={`transition-transform ${open ? "rotate-45" : ""}`} />
 
             </header>
             <div
-                className="overflow-y-hidden transition-all duration-200 px-6"
+                className="overflow-y-hidden transition-all duration-200"
                 style={{ height: open ? listItemRef.current?.offsetHeight || 0 : 0 }}
             >
-                <div ref={listItemRef} className="p-2 pb-4 text-lg font-Manrope">
+                <div ref={listItemRef} className="p-6 text-lg font-Manrope">
                     {children}
                 </div>
             </div>

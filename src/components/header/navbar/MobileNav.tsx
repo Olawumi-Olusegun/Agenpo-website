@@ -33,7 +33,7 @@ export default function MobileNav() {
 
     return (
         <>
-            <div className="lg:hidden fixed bg-white top-0 left-0 z-[90] w-full flex items-center px-3 py-5 justify-between">
+            <div className="lg:hidden fixed bg-white font-Manrope border-b top-0 left-0 z-[90] w-full flex items-center px-3 py-5 justify-between">
 
                 <Link to={"/"} onClick={() => setMenuOpen(false)} className="flex items-center lg:hidden">
                     <img src="./assets/images/Agenpo-logo-large.png" alt="Agenpo Logo" className="w-full h-full object-cover object-center" />
@@ -44,7 +44,7 @@ export default function MobileNav() {
                     className="text-2xl text-primary-90 lg:hidden"
                 >
                     <svg
-                        className="w-8 h-8"
+                        className="w-8 h-8 hover:bg-gray-50 text-gray-700 duration-300 rounded-md p-1"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -66,16 +66,16 @@ export default function MobileNav() {
 
             <div
                 className={cn(
-                    "bg-white flex overflow-y-auto flex-col px-6 pt-5 h-full min-h-screen fixed left-0 top-0 z-[999] lg:hidden border-r border-accent w-[75%] transition-all duration-300 ease-in-out",
+                    "bg-white flex overflow-y-auto flex-col pt-5 h-full min-h-screen fixed left-0 top-0 z-[999] lg:hidden border-accent w-[75%] transition-all duration-300 ease-in-out",
                     menuOpen ? "translate-x-0" : "-translate-x-full"
                 )}
             >
-                <div className="flex items-center justify-between ">
+                <div className="flex items-center justify-between pb-5 mb-5 px-6 border-b">
                     <Link to={"/"} onClick={() => setMenuOpen(false)} className="flex items-center">
                         <img src="./assets/images/Agenpo-logo-large.png" alt="Agenpo Logo" className="w-full h-full object-cover object-center" />
                     </Link>
                 </div>
-                <nav className="flex flex-col gap-4 pt-1.5 pr-2 overflow-y-scroll maiaddy-custom-scrollbar">
+                <nav className="flex flex-col gap-4 px-6 pt-1.5 pr-2 overflow-y-scroll maiaddy-custom-scrollbar">
                     {links.map((link, index) => (
                         <div key={`${link.label}-${index}`}>
 
@@ -84,9 +84,9 @@ export default function MobileNav() {
                                     <button
                                         onClick={() => handleClick(index)}
                                         className={cn(
-                                            "text-muted w-full hover:cursor-pointer rounded-md font-semibold text-neutral-80 hover:text-accent hover:bg-primary-90 hover:text-white transition duration-300 ease-in-out py-2 px-2 flex items-center justify-between",
-                                            pathname === link.href && "bg-primary-90 text-white",
-                                            openedMenu === index && "bg-primary-90 text-white"
+                                            "text-muted w-full hover:cursor-pointer rounded-md font-semibold text-gray-700 hover:bg-primary hover:text-white transition duration-300 ease-in-out py-2 px-2 flex items-center justify-between",
+                                            pathname === link.href && "bg-primary text-white",
+                                            openedMenu === index && "bg-primary text-white"
                                         )}
                                     >
                                         {link.label}
@@ -104,9 +104,9 @@ export default function MobileNav() {
                                         <Link
                                             to={link.href}
                                             className={cn(
-                                                "text-muted w-full hover:cursor-pointer rounded-md font-semibold text-neutral-80 hover:text-accent hover:bg-primary-90 hover:text-white transition duration-300 ease-in-out py-2 px-2 flex items-center justify-between",
-                                                pathname === link.href && "bg-primary-90 text-white",
-                                                openedMenu === index && "bg-primary-90 text-white"
+                                                "w-full hover:cursor-pointer rounded-md font-semibold text-gray-700 hover:bg-primary hover:text-white transition duration-300 ease-in-out py-2 px-2 flex items-center justify-between",
+                                                pathname === link.href && "bg-primary text-white",
+                                                openedMenu === index && "bg-primary text-white"
                                             )}
                                         >
                                             {link.label}
@@ -124,7 +124,7 @@ export default function MobileNav() {
                                                             <Link
                                                                 to={subItem.href}
                                                                 key={subItem.label}
-                                                                className="p-2 hover:bg-primary-90/80 hover:text-white duration-300 block text-sm transition pl-4"
+                                                                className="p-2 hover:bg-primary/80 hover:text-white duration-300 block text-sm transition pl-4"
                                                             >
                                                                 {subItem.label}
                                                             </Link>

@@ -1,6 +1,6 @@
 import React, { HtmlHTMLAttributes } from 'react';
-import { cn } from '../../utils/cn';
 import { Link } from 'react-router-dom';
+import { cn } from '../../utils/cn';
 
 type SectionProps = {
     children: React.ReactNode;
