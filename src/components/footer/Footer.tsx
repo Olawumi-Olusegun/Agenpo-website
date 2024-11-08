@@ -58,7 +58,7 @@ const Footer = () => {
                         <Link to={"/Werhously"}>Werhously</Link>
                         <Link to={"/Coproma"}>Coproma</Link>
                         <Link to={"/Certoma"}>Certoma</Link>
-                        <Link to={"/Inspektr"}>Inspektr</Link>
+                        <Link to={"/Inspecktr"}>Inspecktr</Link>
                         <Link to={"/Haula"}>Haula</Link>
                     </div>
                 </div>
