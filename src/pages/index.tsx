@@ -32,8 +32,9 @@ const Home = () => {
                         </svg>
                     </Hero.Button>
                 </Hero.ButtonGroup>
-                <Hero.Image src="./assets/images/hero-bg.png" alt="hero-background-image" />
+
             </Hero>
+            <img src={"./assets/images/hero-bg.png"} alt={""} className={"pointer-events-none w-full object-cover object-center"} />
             <SolutionsSection>
                 <SolutionsSection.Header>
                     <SolutionsSection.Title>Agribusiness Simplified with Agenpo</SolutionsSection.Title>
