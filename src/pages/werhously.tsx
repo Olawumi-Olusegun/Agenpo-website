@@ -63,11 +63,11 @@ const Werhously = () => {
 
             <section className="relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10 ">
                 <div className="flex">
-                    <div className="flex flex-col justify-center gap-4 w-full max-w-[576px] p-6 ">
-                        <h2 className="font-Manrope text-5xl text-title font-bold ">Ready to get started?</h2>
+                    <div className="flex flex-col justify-center gap-4 w-full max-w-[576px] p-6">
+                        <h2 className="font-Manrope text-3xl lg:text-5xl text-title font-bold ">Ready to get started?</h2>
                         <p className=" text-gray-600 ">Manage warehouse logistics of produce end-to-end.</p>
 
-                        <div className="flex items-center gap-5">
+                        <div className="flex flex-wrap items-center gap-5">
                             <Link to={"#"} className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent">
                                 Get Started
                                 <svg className="group-hover:translate-x-0.5 duration-300" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@ const Werhously = () => {
                         </div>
 
                     </div>
-                    <div className="pt-6">
+                    <div className="hidden md:block pt-6">
                         <img src="./assets/images/dashboard-ui-09.png" alt="dashboard-ui-09" className="pointer-events-none " />
                     </div>
                 </div>

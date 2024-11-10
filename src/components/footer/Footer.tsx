@@ -101,7 +101,7 @@ const Footer = () => {
 
             <div className="border-t" />
             <div className="py-8 max-w-[1280px] mx-auto px-5 lg:px-0">
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-center lg:text-left">
                     &copy; {new Date().getFullYear()} All Rights Reserved.
                 </p>
             </div>
