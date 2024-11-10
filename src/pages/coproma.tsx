@@ -77,7 +77,6 @@ const Coproma = () => {
                                 Log In
                             </Link>
                         </div>
-
                     </div>
                     <div className="hidden md:block pt-6">
                         <img src="./assets/images/dashboard-ui-03.png" alt="dashbaord-ui-03" className="pointer-events-none" />
