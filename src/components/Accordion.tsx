@@ -22,7 +22,7 @@ export const Accordion = ({ children, onChange, title, subTitle, className, ...p
 
             <div className={`flex items-center flex-col ${title || subTitle ? " my-10" : ""} `}>
                 <h1 className="text-green-700">{title}</h1>
-                <h1 className="font-Manrope font-bold text-[56px] ">{subTitle}</h1>
+                <h1 className="font-Manrope font-bold text-3xl lg:text-[56px] ">{subTitle}</h1>
             </div>
 
             <ul {...props}>
@@ -62,16 +62,16 @@ export const AccordionItem = ({ children, value, trigger, ...props }: MyAccordio
             <header
                 role="button"
                 onClick={() => setSelected(open ? null : value)}
-                className="flex justify-between items-center p-4 font-semibold px-6 text-xl"
+                className="flex justify-between items-center p-4 px-0 font-semibold lg:px-6 text-xl"
             >
                 <span>{trigger}</span>
-                <Plus size={24} className={`transition-transform shrink-0 ${open ? "rotate-45" : ""}`} />
+                <Plus size={24} className={`transition-transform shrink-0 self-start ${open ? "rotate-45" : ""}`} />
             </header>
             <div
                 className="overflow-y-hidden transition-all duration-300"
                 style={{ height: open ? listItemRef.current?.offsetHeight || 0 : 0 }}
             >
-                <div ref={listItemRef} className="p-6 text-lg font-Manrope">
+                <div ref={listItemRef} className="px-0 p-6 lg:px-6 text-lg font-Manrope">
                     {children}
                 </div>
             </div>

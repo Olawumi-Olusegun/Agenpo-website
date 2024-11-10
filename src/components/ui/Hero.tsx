@@ -41,7 +41,7 @@ interface ButtonGroupProps extends HtmlHTMLAttributes<HTMLDivElement> {
 };
 
 const ButtonGroup = ({ children, className, ...props }: ButtonGroupProps) => (
-    <div className={cn("flex flex-wrap lg:flex-row items-center gap-5", className)} {...props}>
+    <div className={cn("flex flex-wrap w-full lg:flex-row items-center justify-center gap-5", className)} {...props}>
         {children}
     </div>
 );

@@ -13,9 +13,9 @@ const Coproma = () => {
                 </Hero.Description>
 
                 <Hero.ButtonGroup>
-                    <Hero.Button className="">
+                    <Hero.Button className="group">
                         Get Started
-                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="group-hover:translate-x-1 transition-all duration-300" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.25 12H20.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M14 5.25L20.75 12L14 18.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
