@@ -36,11 +36,11 @@ interface GridItemProps extends HtmlHTMLAttributes<HTMLAnchorElement> {
     imageStyle?: string;
 }
 const GridItem = ({ className, children, title, description, image, imageStyle, href = "#", ...props }: GridItemProps) => (
-    <Link to={href} className={cn("relative col-span-3 bg-white max-h-[292px] rounded-md px-4 py-4 flex flex-col", className)} {...props}>
+    <Link to={href} className={cn("relative col-span-12 sm:col-span-6 lg:col-span-3 bg-white lg:max-h-[292px] rounded-md px-4 py-4 flex flex-col gap-5 lg:gap-0", className)} {...props}>
         <h2 className="font-semibold py-2 text-title">{title}</h2>
         <p className="text-gray-600 font-Manrope pb-1.5">{description}</p>
         <div className={cn("mt-auto self-end flex flex-col items-end overflow-hidden", imageStyle)}>
-            <img src={image} alt="Coproma" className="mt-auto pointer-events-none w-auto h-full  object-center" />
+            <img src={image} alt="Coproma" className="mt-auto pointer-events-none w-auto max-h-[128.88px] lg:h-full  object-center" />
         </div>
     </Link>
 );
@@ -55,7 +55,7 @@ const Header = ({ className, children, title = "SOLUTIONS", ...props }: HeaderPr
 
 interface TitleProps extends HtmlHTMLAttributes<HTMLHeadingElement> { }
 const Title = ({ className, children }: TitleProps) => (
-    <h2 className={cn("font-Manrope text-center text-5xl font-extrabold capitalize", className)}>{children}</h2>
+    <h2 className={cn("font-Manrope text-center text-3xl lg:text-5xl font-extrabold capitalize", className)}>{children}</h2>
 );
 
 interface DescriptionProps extends HtmlHTMLAttributes<HTMLParagraphElement> { }
@@ -66,8 +66,8 @@ const Description = ({ className, children, ...props }: DescriptionProps) => (
 
 interface LogoLinkProps extends HtmlHTMLAttributes<HTMLDivElement> { href?: string; }
 const LogoLink = ({ className, href = "/" }: LogoLinkProps) => (
-    <div className={cn("col-span-6 bg-white rounde-md px-3 py-4", className)}>
-        <Link to={href} className="flex items-center justify-center w-[458.84px] h-[130.57px] mx-auto lg:mb-14 mt-6 ">
+    <div className={cn("col-span-12 sm:col-span-6 lg:col-span-6 bg-white rounde-md px-3 py-4", className)}>
+        <Link to={href} className="flex items-center justify-center w-full lg:w-[458.84px] h-[130.57px] mx-auto lg:mb-14 lg:mt-6 ">
             {/* SVG Logo */}
             <svg width="801" height="229" viewBox="0 0 801 229" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M311.087 192.124H347.519L307.136 93.4414H273.191L232.809 192.124H269.241L273.191 180.805H307.136L311.087 192.124ZM282.263 154.392L290.164 131.754L298.065 154.392H282.263Z" fill="#0D3616" />

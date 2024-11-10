@@ -13,7 +13,7 @@ const Home = () => {
                 </Hero.Description>
 
                 <Hero.ButtonGroup>
-                    <Hero.Button variant="primary">
+                    <a href={"https://t.me/+4kXbKlOQe0JiY2Vk"} target="_blank" className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent">
                         <span>Join Our Telegram Community</span>
                         <svg className="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_16683_1627)">
@@ -25,7 +25,7 @@ const Home = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-                    </Hero.Button>
+                    </a>
                 </Hero.ButtonGroup>
             </Hero>
 
@@ -43,8 +43,8 @@ const Home = () => {
                         image="./assets/images/Coproma.png"
                         href="/Coproma"
                         title="Coproma"
-                        className="pr-14 "
-                        imageStyle="absolute bottom-0 right-0  w-40 -mr-3"
+                        className="lg:pr-14 "
+                        imageStyle="lg:absolute bottom-0 right-0  w-40 -mr-3"
                         description="Food processors and manufacturers can access, order, receive, and pay for certified produce raw materials, while being able to lock-in prices for future delivery."
                     />
                     <SolutionsSection.GridItem
@@ -82,23 +82,23 @@ const Home = () => {
                     <SolutionsSection.GridItem
                         image="./assets/images/AgriGeitor.png"
                         href="/AgriGeitor"
-                        imageStyle="mx-auto"
+                        imageStyle="mx-auto -mb-4"
                         title="AgriGeitor" description="Agro warehouse managers can earn and manage their warehouse operations end-to-end." />
 
                     <SolutionsSection.GridItem
                         image="./assets/images/Inspecktr.png"
                         href="/Inspecktr"
-                        imageStyle="mr-6 -mb-4"
+                        imageStyle="mx-auto -mb-4"
                         title="Inspecktr" description="Quality inspectors working with certification companies can record produce inspections and certifications electronically without paperwork." />
                 </SolutionsSection.Grid>
             </SolutionsSection>
 
             <section className="relative bg-white rounded-md w-full lg:max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
-                <img src="./assets/images/leaf-left.png" alt="" className="left-0 top-0 pointer-events-none" />
-                <img src="./assets/images/leaf-left.png" alt="" className="absolute right-0 bottom-0 rotate-180 pointer-events-none" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-3 w-full p-5 lg:p-0 lg:max-w-[690px] mx-auto">
-                    <h2 className="font-Manrope text-5xl text-title text-center font-bold ">Don't have a registered agribusiness?</h2>
-                    <p className="text-center text-gray-600 text-lg font-Manrope ">Registering your business is the first crucial step towards unlocking a world of growth opportunities. Start your journey to success and register your business today.</p>
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
+                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-3 w-full p-5 lg:p-0 lg:max-w-[690px] mx-auto">
+                    <h2 className="font-Manrope text-3xl lg:text-5xl text-title text-center font-bold ">Don't have a registered agribusiness?</h2>
+                    <p className="text-center text-gray-600 lg:text-lg font-Manrope ">Registering your business is the first crucial step towards unlocking a world of growth opportunities. Start your journey to success and register your business today.</p>
                     <button className="group flex items-center justify-center gap-3 bg-primary hover:bg-opacity-90 duration-300 w-fit text-white border border-transparent px-6 py-3 rounded-2xl">
                         <span>Register your Agribusiness</span>
                         <svg className="flex-shrink-0 group-hover:translate-x-1 transition duration-300" width="10" height="12" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -20,7 +20,7 @@ type TitleProps = {
 };
 
 const Title = ({ children }: TitleProps) => (
-    <h1 className="text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
+    <h1 className="text-3xl lg:text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
         {children}
     </h1>
 );
@@ -31,7 +31,7 @@ type DescriptionProps = {
 };
 
 const Description = ({ children, className }: DescriptionProps) => (
-    <p className={cn("text-gray-700 font-Manrope text-xl w-full lg:max-w-[1019px] mx-auto", className)}>
+    <p className={cn("text-gray-700 font-Manrope lg:text-xl w-full lg:max-w-[1019px] mx-auto", className)}>
         {children}
     </p>
 );

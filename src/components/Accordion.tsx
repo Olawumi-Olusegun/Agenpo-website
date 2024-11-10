@@ -64,9 +64,8 @@ export const AccordionItem = ({ children, value, trigger, ...props }: MyAccordio
                 onClick={() => setSelected(open ? null : value)}
                 className="flex justify-between items-center p-4 font-semibold px-6 text-xl"
             >
-                {trigger}
-                <Plus size={24} className={`transition-transform ${open ? "rotate-45" : ""}`} />
-
+                <span>{trigger}</span>
+                <Plus size={24} className={`transition-transform shrink-0 ${open ? "rotate-45" : ""}`} />
             </header>
             <div
                 className="overflow-y-hidden transition-all duration-300"
