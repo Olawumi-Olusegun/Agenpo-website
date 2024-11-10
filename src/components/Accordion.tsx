@@ -21,7 +21,7 @@ export const Accordion = ({ children, onChange, title, subTitle, className, ...p
         <div className={cn("w-full max-w-[1216px] mx-auto p-5 lg:px-0 my-10 bg-white rounded-md", className)}>
 
             <div className={`flex items-center flex-col ${title || subTitle ? " my-10" : ""} `}>
-                <h1 className="text-green-700">{title}</h1>
+                <h1 className="text-green-700 pb-5">{title}</h1>
                 <h1 className="font-Manrope font-bold text-3xl lg:text-[56px] ">{subTitle}</h1>
             </div>
 
