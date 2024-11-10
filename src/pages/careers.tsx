@@ -25,21 +25,21 @@ const Careers = () => {
                         At Agenpo, our culture is not a set of rules but a living, breathing entity that shapes our daily experiences and defines our collective identity. Together, we create an environment where every individual can thrive, ideas can flourish, and exceptional results become the norm. As a member of the Agenpo family, you contribute to the vibrancy of our culture, making it a beacon for excellence in the dynamic world we navigate together.
                     </p>
                 </div>
-                <div className="grid grid-cols-4 gap-4">
-                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4 hover:translate-y-2 duration-300">
                         <h2 className="text-xl font-bold text-title">Innovation</h2>
                         <p className="text-gray-600 font-Manrope ">We combine speed, convenience, and automation to create seamless and easy-to-use products and services</p>
                     </div>
-                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4">
+                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4 hover:translate-y-2 duration-300">
                         <h2 className="text-xl font-bold text-title">Integrity</h2>
                         <p className="text-gray-600 font-Manrope ">With the welfare of every employee in mind, we mold AGENPO into a home that is safe, dependent and reliable.</p>
                     </div>
-                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4">
+                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4 hover:translate-y-2 duration-300">
                         <h2 className="text-xl font-bold text-title">Customer First</h2>
                         <p className="text-gray-600 font-Manrope ">All we do, we do for our customers.
                             Providing them quick services, a listening ear and respect.</p>
                     </div>
-                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4">
+                    <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4 hover:translate-y-2 duration-300">
                         <h2 className="text-xl font-bold text-title">Family</h2>
                         <p className="text-gray-600 font-Manrope ">AGENPO is a home away from home. From our hilarious moments to our positive energies to having each other's back.</p>
                     </div>
@@ -59,8 +59,8 @@ const Careers = () => {
 
                 <div className="flex flex-col gap-4 mb-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Engineering</h2>
-                    <div className="grid grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Software Engineer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -76,7 +76,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Frontend Developer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -92,7 +92,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Backend Developer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -108,7 +108,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Full-Stack Developer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -124,7 +124,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">DevOps Engineer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -140,7 +140,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Quality Assurance Engineer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -161,8 +161,8 @@ const Careers = () => {
 
                 <div className="flex flex-col gap-4 mb-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Design</h2>
-                    <div className="grid grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Graphic Designer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -178,7 +178,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">UI/UX Designer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -194,7 +194,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Illustrator</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -210,7 +210,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Product Designer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -226,7 +226,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Motion Graphics Designer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -242,7 +242,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Brand Designer</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -263,8 +263,8 @@ const Careers = () => {
 
                 <div className="flex flex-col gap-4 mb-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Corporate</h2>
-                    <div className="grid grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Legal Assistant</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -280,7 +280,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Operations Manager</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -296,7 +296,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Finance Analyst</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -317,8 +317,8 @@ const Careers = () => {
 
                 <div className="flex flex-col gap-4 mb-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Data Science & Analytics </h2>
-                    <div className="grid grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Data Scientist</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -334,7 +334,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Data Analyst</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -355,8 +355,8 @@ const Careers = () => {
 
                 <div className="flex flex-col gap-4 mb-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Marketing</h2>
-                    <div className="grid grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Marketing Manager</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -372,7 +372,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Digital Marketing Specialist</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -388,7 +388,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Brand Manager</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -404,7 +404,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Public Relations Specialist</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -420,7 +420,7 @@ const Careers = () => {
                                 </svg>
                             </Link>
                         </div>
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Content Marketing Manager</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -441,8 +441,8 @@ const Careers = () => {
 
                 <div className="flex flex-col gap-4 mb-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Product</h2>
-                    <div className="grid grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-4 bg-white rounded-md p-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Marketing Manager</h2>
                             <div className="flex flex-wrap gap-4">
                                 <span className="bg-green-50 rounded-full p-1.5 px-2 text-xs font-Manrope text-primary-acccent">Remote</span>
@@ -462,12 +462,12 @@ const Careers = () => {
                 </div>
             </section>
 
-            <section className="relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
-                <img src="./assets/images/leaf-left.png" alt="" className="left-0 top-0 pointer-events-none" />
-                <img src="./assets/images/leaf-left.png" alt="" className="absolute right-0 bottom-0 rotate-180 pointer-events-none" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-5">
-                    <h2 className="font-Manrope text-5xl text-[#212121] text-center font-bold ">Couldn't find a suitable cape for you?</h2>
-                    <p className="text-center text-primary-acccent font-Manrope ">Think you can bring magic to the team that is AGENPO  and can't find a suitable role for you, kindly fill the form below</p>
+            <section className="relative py-6 lg:py-0 bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
+                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
+                    <h2 className="px-6 font-Manrope text-3xl lg:text-5xl text-[#212121] text-center font-bold ">Couldn't find a suitable cape for you?</h2>
+                    <p className="px-6 text-center text-primary-acccent font-Manrope ">Think you can bring magic to the team that is AGENPO  and can't find a suitable role for you, kindly fill the form below</p>
                     <div className="flex items-center gap-4">
                         <Link to="/contact-us" className="group flex items-center justify-center gap-1.5 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
                             Contact Us
