@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer className="bg-white border-t border-gray-200 text-sm w-full">
-            <div className="grid grid-cols-12 w-full max-w-[1280px] mx-auto pt-24 px-5 lg:px-0 ">
-                <div className="col-span-4 flex flex-col gap-3 text-lg lg:max-w-[295px]">
+            <div className="grid grid-cols-12 gap-y-10 w-full max-w-[1280px] mx-auto pt-24 px-5 lg:px-0 ">
+                <div className="col-span-12 lg:col-span-4 flex flex-col gap-3 text-lg lg:max-w-[295px]">
                     <p className="text-gray-700">Transforming the Agribusiness value chain in Africa.</p>
                     <div className="flex items-center flex-wrap gap-5 mt-4">
                         <a href={"https://www.facebook.com/Agenpo"} target="_blank">
@@ -47,7 +47,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col-span-1 flex flex-col gap-3">
+                <div className="col-span-6 md:col-span-4 lg:col-span-1 flex flex-col gap-3">
                     <h2 className="text-title text-sm uppercase">Products</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
                         <Link to={"#"}>FarmSider</Link>
@@ -62,7 +62,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col-span-1 flex flex-col gap-3">
+                <div className="col-span-6 md:col-span-4 lg:col-span-1 flex flex-col gap-3">
                     <h2 className="text-title text-sm uppercase">RESOURCES</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
                         <Link to={"/about-us"}>About Us</Link>
@@ -75,7 +75,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col-span-2 flex flex-col gap-3">
+                <div className="col-span-6 md:col-span-4 lg:col-span-2 flex flex-col gap-3">
                     <h2 className="text-title text-sm uppercase">LEGAL</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
                         <Link to={"#"}>Privacy Policy</Link>
