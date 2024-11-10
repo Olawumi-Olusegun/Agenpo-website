@@ -1,7 +1,9 @@
 import Hero from "../components/ui/Hero"
 import SolutionsSection from "../components/ui/SolutionsSection"
 
+
 const Home = () => {
+
     return (
         <>
             <Hero>
@@ -24,7 +26,6 @@ const Home = () => {
                             </defs>
                         </svg>
                     </Hero.Button>
-
                     <Hero.Button variant="secondary">
                         <span>Watch Ad Video</span>
                         <svg width="16" height="16" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,9 +33,10 @@ const Home = () => {
                         </svg>
                     </Hero.Button>
                 </Hero.ButtonGroup>
-
             </Hero>
+
             <img src={"./assets/images/hero-bg.png"} alt={""} className={"pointer-events-none w-full object-cover object-center"} />
+
             <SolutionsSection>
                 <SolutionsSection.Header>
                     <SolutionsSection.Title>Agribusiness Simplified with Agenpo</SolutionsSection.Title>
@@ -97,7 +99,6 @@ const Home = () => {
                 </SolutionsSection.Grid>
             </SolutionsSection>
 
-
             <section className="relative bg-white rounded-md w-full lg:max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
                 <img src="./assets/images/leaf-left.png" alt="" className="left-0 top-0 pointer-events-none" />
                 <img src="./assets/images/leaf-left.png" alt="" className="absolute right-0 bottom-0 rotate-180 pointer-events-none" />
@@ -116,4 +117,7 @@ const Home = () => {
     )
 }
 
+
+
 export default Home
+

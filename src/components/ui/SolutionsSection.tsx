@@ -60,7 +60,7 @@ const Title = ({ className, children }: TitleProps) => (
 
 interface DescriptionProps extends HtmlHTMLAttributes<HTMLParagraphElement> { }
 const Description = ({ className, children, ...props }: DescriptionProps) => (
-    <p className={cn("text-center text-xl font-Manrope text-gray-600", className)} {...props}>{children}</p>
+    <p className={cn("text-center text-gray-600", className)} {...props}>{children}</p>
 );
 
 
