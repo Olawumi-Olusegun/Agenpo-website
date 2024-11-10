@@ -13,8 +13,8 @@ const AgriGeitor = () => {
                     AgriGeitor is the mobile app for individual aggregators. Simply put, aggregators aggregate produce from different locations and when bulk volume is achieved, use the app to locate the nearest available warehouse where the bulk aggregated produce can be taken for certification and sale.
                 </Hero.Description>
 
-                <Hero.ButtonGroup>
-                    <Hero.Button className="bg-transparent px-0">
+                <Hero.ButtonGroup className="flex-nowrap">
+                    <Hero.Button className="bg-transparent p-0">
                         <svg width="209" height="60" viewBox="0 0 209 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M206.986 53.0812C206.986 56.2786 204.342 58.8687 201.072 58.8687H7.5236C4.25483 58.8687 1.60156 56.2786 1.60156 53.0812V6.92785C1.60156 3.73189 4.25483 1.13281 7.5236 1.13281H201.07C204.342 1.13281 206.985 3.73189 206.985 6.92785L206.986 53.0812Z" fill="black" />
                             <path d="M200.449 1.20187C204.011 1.20187 206.909 4.0275 206.909 7.5V52.5C206.909 55.9725 204.011 58.7981 200.449 58.7981H8.14153C4.57999 58.7981 1.68191 55.9725 1.68191 52.5V7.5C1.68191 4.0275 4.57999 1.20187 8.14153 1.20187H200.449ZM200.449 3.17096e-06H8.14153C3.91268 3.17096e-06 0.449219 3.37688 0.449219 7.5V52.5C0.449219 56.6231 3.91268 60 8.14153 60H200.449C204.678 60 208.142 56.6231 208.142 52.5V7.5C208.142 3.37688 204.678 3.17096e-06 200.449 3.17096e-06Z" fill="#A6A6A6" />
@@ -44,7 +44,7 @@ const AgriGeitor = () => {
                         </svg>
                     </Hero.Button>
 
-                    <Hero.Button className="bg-transparent px-0">
+                    <Hero.Button className="bg-transparent p-0">
                         <svg width="208" height="60" viewBox="0 0 208 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M199.866 60H7.82236C3.59933 60 0.140625 56.6231 0.140625 52.5V7.50001C0.140625 3.37688 3.59933 3.17096e-06 7.82236 3.17096e-06H199.866C204.089 3.17096e-06 207.547 3.37688 207.547 7.50001V52.5C207.547 56.6231 204.089 60 199.866 60Z" fill="black" />
                             <path d="M199.866 1.20187C203.422 1.20187 206.316 4.0275 206.316 7.5V52.5C206.316 55.9725 203.422 58.7981 199.866 58.7981H7.82236C4.26572 58.7981 1.37162 55.9725 1.37162 52.5V7.5C1.37162 4.0275 4.26572 1.20187 7.82236 1.20187H199.866ZM199.866 3.17096e-06H7.82236C3.59933 3.17096e-06 0.140625 3.37688 0.140625 7.5V52.5C0.140625 56.6231 3.59933 60 7.82236 60H199.866C204.089 60 207.547 56.6231 207.547 52.5V7.5C207.547 3.37688 204.089 3.17096e-06 199.866 3.17096e-06Z" fill="#A6A6A6" />
@@ -96,34 +96,10 @@ const AgriGeitor = () => {
             </Accordion >
 
             <section className="relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10 ">
-                {/* <div className="flex">
-                    <div className="flex flex-col justify-center gap-4 w-full max-w-[576px] p-6 ">
-                        <h2 className="font-Manrope text-5xl text-title font-bold ">Ready to get started?</h2>
-                        <p className=" text-gray-600 ">Pickup and Deliver certified agro-produce to processors easily with the coordinates provided for you.</p>
-
-                        <div className="flex items-center gap-5">
-                            <Link to="#" className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent">
-                                Get Started
-                                <svg className="group-hover:translate-x-0.5 duration-300" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.25 12H20.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M14 5.25L20.75 12L14 18.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
-                            </Link>
-                            <Link to="#" className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-white text-primary border border-primary">
-                                Log In
-                            </Link>
-                        </div>
-
-                    </div>
-                    <div className="pt-6">
-                        <img src="./assets/images/dashboard-ui-09.png" alt="dashboard-ui-09" className="pointer-events-none " />
-                    </div>
-                </div> */}
-
-                <img src="./assets/images/app-ui-01.png" alt="" className="left-0 top-0 pointer-events-none w-[250px] " />
-                <img src="./assets/images/app-ui-02.png" alt="" className="absolute right-0 bottom-0  pointer-events-none w-[250px]" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-3">
-                    <h2 className="font-Manrope text-5xl text-title text-center font-bold ">Ready to get started?</h2>
+                <img src="./assets/images/app-ui-01.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none w-[250px] " />
+                <img src="./assets/images/app-ui-02.png" alt="" className="hidden lg:block absolute right-0 bottom-0  pointer-events-none w-[250px]" />
+                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-3">
+                    <h2 className="font-Manrope text-3xl lg:text-5xl text-title text-center font-bold ">Ready to get started?</h2>
                     <p className="text-center text-gray-600 ">Sell your aggregated produce to a wide range of traders efficiently.</p>
                     <div className="flex items-center justify-center gap-5">
                         <Link to={"#"}>
