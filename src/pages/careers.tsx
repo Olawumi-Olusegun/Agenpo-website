@@ -18,7 +18,7 @@ const Careers = () => {
             </div>
             <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto py-10 lg:py-[92px]">
                 <div className="flex flex-col items-center gap-5 w-full mx-auto text-center">
-                    <h1 className="text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
+                    <h1 className="text-3xl md:text-5xl w-full lg:text-[82px] font-bold font-Manrope text-center text-title">
                         Life at Agenpo
                     </h1>
                     <p className="w-full mx-auto font-Manrope lg:text-xl text-gray-600 lg:pb-16">
@@ -52,7 +52,7 @@ const Careers = () => {
                     <h1 className="text-3xl lg:text-[82px] font-bold font-Manrope text-center text-title">
                         Join Our Team
                     </h1>
-                    <p className="w-full mx-auto font-Manrope lg:text-xl text-gray-600 lg:pb-16">
+                    <p className="w-full mx-auto font-Manrope lg:text-xl text-gray-600 pt-6 lg:pb-16">
                         As a member of the Agenpo family, you contribute to the vibrancy of our culture, making it a beacon for excellence in the dynamic world we navigate together. Welcome to a workplace where culture isn't just a buzzword; it's the soul of our success.
                     </p>
                 </div>
@@ -466,7 +466,7 @@ const Careers = () => {
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
                 <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
-                    <h2 className="px-6 font-Manrope text-3xl lg:text-5xl text-[#212121] text-center font-bold ">Couldn't find a suitable cape for you?</h2>
+                    <h2 className="w-full px-6 font-Manrope text-3xl lg:text-5xl text-[#212121] text-center font-bold ">Couldn't find a suitable cape for you?</h2>
                     <p className="px-6 text-center text-primary-acccent font-Manrope ">Think you can bring magic to the team that is AGENPO  and can't find a suitable role for you, kindly fill the form below</p>
                     <div className="flex items-center gap-4">
                         <Link to="/contact-us" className="group flex items-center justify-center gap-1.5 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
