@@ -11,8 +11,8 @@ const Blog = () => {
                     <p className="text-gray-700 w-full lg:max-w-[1019px] mx-auto text-lg ">
                         Be the first to get access to Top stories and information about agriculture  news from Agenpo
                     </p>
-                    <div className="flex items-center gap-4">
-                        <input type="text" placeholder="Enter email address" className="p-3 outline outline-1 outline-primary rounded-md focus:outline-2" />
+                    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4">
+                        <input type="text" placeholder="Enter email address" className="w-full lg:w-fit p-3 outline outline-1 outline-primary rounded-md focus:outline-2" />
                         <button className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-md bg-primary hover:bg-opacity-90 text-white outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
                             Subscribe
                         </button>
@@ -22,21 +22,21 @@ const Blog = () => {
 
             <section className="w-full lg:max-w-[1216px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-01.png" alt="blog-image-01" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -60,21 +60,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-02.png" alt="blog-image-02" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -100,21 +100,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-03.png" alt="blog-image-03" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -140,21 +140,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-04.png" alt="blog-image-04" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -180,21 +180,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-05.png" alt="blog-image-05" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -220,21 +220,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-06.png" alt="blog-image-06" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -260,21 +260,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-07.png" alt="blog-image-07" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -300,21 +300,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-08.png" alt="blog-image-08" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -340,21 +340,21 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-09.png" alt="blog-image-09" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" stroke-miterlimit="10" />
+                                <path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" stroke="#9E9E9E" strokeMiterlimit="10" />
                                 <path d="M8 4.5V8H11.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             32 mins read
                         </span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V13C2.5 13.2761 2.72386 13.5 3 13.5H13C13.2761 13.5 13.5 13.2761 13.5 13V3C13.5 2.72386 13.2761 2.5 13 2.5Z" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M11 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M5 1.5V3.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M2.5 5.5H13.5" stroke="#9E9E9E" strokeLinecap="round" strokeLinejoin="round" />
@@ -386,8 +386,8 @@ const Blog = () => {
                 <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
                     <h2 className="px-6 font-Manrope text-3xl lg:text-5xl text-[#212121] text-center font-bold ">Stay Informed</h2>
                     <p className="px-6 text-center text-[#757575] ">Be the first to get access to Top stories and information about agriculture  news from Agenpo</p>
-                    <div className="flex items-center gap-4">
-                        <input type="text" placeholder="Enter email address" className="p-3 outline outline-1 outline-primary rounded-md focus:outline-2" />
+                    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4  px-5">
+                        <input type="text" placeholder="Enter email address" className="w-full lg:w-fit p-3 outline outline-1 outline-primary rounded-md focus:outline-2" />
                         <button className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-md bg-primary hover:bg-opacity-90 text-white outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
                             Subscribe
                         </button>
