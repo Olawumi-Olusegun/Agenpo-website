@@ -22,7 +22,7 @@ const Blog = () => {
 
             <section className="w-full lg:max-w-[1216px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-01.png" alt="blog-image-01" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -45,7 +45,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">Organic Farming: Cultivating a Sustainable Future</h2>
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">Organic Farming: Cultivating a Sustainable Future</h2>
 
                     <p className="text-gray-500 font-Manrope line-clamp-3 ">
                         Exploring the principles and practices of organic farming, from soil health to crop rotation, and its impact on environmental sustainability.
@@ -60,7 +60,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-02.png" alt="blog-image-02" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -83,7 +83,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Harnessing Technology for Growth
                     </h2>
 
@@ -100,7 +100,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-03.png" alt="blog-image-03" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -123,7 +123,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Farm-to-Table Movement: Bridging the Gap
                     </h2>
 
@@ -140,7 +140,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-04.png" alt="blog-image-04" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -163,7 +163,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         The Future of Vertical Farming: Growing Upward
                     </h2>
 
@@ -180,10 +180,10 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-05.png" alt="blog-image-05" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
-                    <div className="flex items-center gap-2 text-gray-500 text-xs ">
+                    <div className="flex items-center gap-2 text-gray-500 text-xs w-full ">
                         <span>News</span>
                         <span className="flex items-center gap-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,7 +203,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Crop Rotation: Balancing Soil Health and Yield
                     </h2>
 
@@ -220,7 +220,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-06.png" alt="blog-image-06" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -243,7 +243,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Agricultural Innovation: Navigating the Digital Frontier
                     </h2>
 
@@ -260,7 +260,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-07.png" alt="blog-image-07" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -283,7 +283,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Sustainable Water Management in Agriculture
                     </h2>
 
@@ -300,7 +300,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-08.png" alt="blog-image-08" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -323,7 +323,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Climate-Smart Agriculture: Adapting to Change
                     </h2>
 
@@ -340,7 +340,7 @@ const Blog = () => {
                 </div>
 
                 <div className="flex flex-col gap-4 bg-white rounded-md p-4">
-                    <div className="w-full h-full max-h-[330px] pointer-events-none overflow-hidden">
+                    <div className="w-full h-[330px] pointer-events-none overflow-hidden">
                         <img src="./assets/images/blog/blog-image-09.png" alt="blog-image-09" className="w-full h-full rounded-md object-cover object-center" />
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 text-xs ">
@@ -363,7 +363,7 @@ const Blog = () => {
                             Feb 15 , 2024
                         </span>
                     </div>
-                    <h2 className="font-bold text-xl text-black/80 line-clamp-2 ">
+                    <h2 className="font-bold text-xl text-black/80 line-clamp-2">
                         Agri-Tourism: Cultivating Connections with Consumers
                     </h2>
 
