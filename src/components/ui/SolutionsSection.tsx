@@ -36,7 +36,7 @@ interface GridItemProps extends HtmlHTMLAttributes<HTMLAnchorElement> {
     imageStyle?: string;
 }
 const GridItem = ({ className, children, title, description, image, imageStyle, href = "#", ...props }: GridItemProps) => (
-    <Link to={href} className={cn("relative col-span-12 sm:col-span-6 lg:col-span-3 bg-white lg:max-h-[292px] rounded-md px-4 py-4 flex flex-col gap-5 lg:gap-0", className)} {...props}>
+    <Link to={href} className={cn("relative hover:scale-95 duration-300 col-span-12 sm:col-span-6 lg:col-span-3 bg-white lg:max-h-[292px] rounded-md px-4 py-4 flex flex-col gap-5 lg:gap-0", className)} {...props}>
         <h2 className="font-semibold py-2 text-title">{title}</h2>
         <p className="text-gray-600 font-Manrope pb-1.5">{description}</p>
         <div className={cn("mt-auto self-end flex flex-col items-end overflow-hidden", imageStyle)}>

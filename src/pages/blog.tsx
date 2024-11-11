@@ -51,7 +51,7 @@ const Blog = () => {
                         Exploring the principles and practices of organic farming, from soil health to crop rotation, and its impact on environmental sustainability.
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -91,7 +91,7 @@ const Blog = () => {
                         Dive into the world of precision agriculture and discover how advanced technologies like GPS, drones, and sensors are revolutionizing farming.
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -131,7 +131,7 @@ const Blog = () => {
                         Delving into the farm-to-table movement, its origins, and how it's reshaping the food industry by promoting local, sustainable agriculture
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -171,7 +171,7 @@ const Blog = () => {
                         Exploring the potential of vertical farming to address food security challenges, conserve resources, and transform urban agriculture
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -211,7 +211,7 @@ const Blog = () => {
                         Understanding the importance of crop rotation in maintaining soil fertility, reducing pests and diseases, and optimizing crop yields
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -251,7 +251,7 @@ const Blog = () => {
                         Discover how digital technologies like IoT, AI, and blockchain are revolutionizing the agricultural landscape, from field to market
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -291,7 +291,7 @@ const Blog = () => {
                         Examining the importance of sustainable water management practices in agriculture to ensure long-term productivity and environmental stewardship
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -331,7 +331,7 @@ const Blog = () => {
                         Exploring climate-smart agriculture practices designed to mitigate climate change impacts while enhancing resilience and productivity
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
@@ -371,7 +371,7 @@ const Blog = () => {
                         Uncover the potential of agri-tourism in forging connections between consumers and farmers, promoting local agriculture, and boosting rural economies
                     </p>
 
-                    <Link to={"#"} className="group mt-auto flex items-center justify-center gap-2 w-full lg:w-fit rounded-md text-primary">
+                    <Link to={"#"} className="self-start group mt-auto flex items-center py-2 gap-2 rounded-md text-primary">
                         Read More
                         <svg className="group-hover:translate-x-0.5 duration-300" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8.11467 4.83507L4.53867 1.25907L5.48133 0.316406L10.6667 5.50174L5.48133 10.6871L4.53867 9.74441L8.11467 6.16841H0V4.83507H8.11467Z" fill="#218838" />
