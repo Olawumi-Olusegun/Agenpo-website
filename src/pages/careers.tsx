@@ -5,10 +5,10 @@ const Careers = () => {
         <>
             <section className="w-full lg:max-w-[997px] mx-auto py-5 px-5 lg:px-0">
                 <div className="flex flex-col items-center gap-5 w-full lg:lg:max-w-[977px] mx-auto text-center">
-                    <h1 className="text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
+                    <h1 className="text-3xl md:text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
                         Careers
                     </h1>
-                    <p className="w-full mx-auto font-Manrope text-xl text-primary-acccent lg:pb-16">
+                    <p className="w-full mx-auto font-Manrope lg:text-xl text-primary-acccent lg:pb-16">
                         At Agenpo, we are more than just a company; we are a community bound together by shared values, a common purpose, and a commitment to fostering a workplace culture that fuels our collective success. Our culture is the heartbeat of our organization, guiding us on the path to innovation, collaboration, and unwavering integrity.
                     </p>
                 </div>
@@ -16,16 +16,16 @@ const Careers = () => {
             <div className="w-full p-5 lg:px-0 lg:max-w-[1244px] mx-auto">
                 <img src="./assets/images/career-bg-image.png" alt="career-bg-image" className="pointer-events-none" />
             </div>
-            <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto py-[92px]">
+            <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto py-10 lg:py-[92px]">
                 <div className="flex flex-col items-center gap-5 w-full mx-auto text-center">
                     <h1 className="text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
                         Life at Agenpo
                     </h1>
-                    <p className="w-full mx-auto font-Manrope text-xl text-gray-600 lg:pb-16">
+                    <p className="w-full mx-auto font-Manrope lg:text-xl text-gray-600 lg:pb-16">
                         At Agenpo, our culture is not a set of rules but a living, breathing entity that shapes our daily experiences and defines our collective identity. Together, we create an environment where every individual can thrive, ideas can flourish, and exceptional results become the norm. As a member of the Agenpo family, you contribute to the vibrancy of our culture, making it a beacon for excellence in the dynamic world we navigate together.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 ">
                     <div className="flex flex-col gap-2 bg-white rounded-md py-8 px-4 hover:translate-y-2 duration-300">
                         <h2 className="text-xl font-bold text-title">Innovation</h2>
                         <p className="text-gray-600 font-Manrope ">We combine speed, convenience, and automation to create seamless and easy-to-use products and services</p>
@@ -46,20 +46,20 @@ const Careers = () => {
                 </div>
             </section>
 
-            <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto py-[92px]">
-                <div className="flex flex-col items-center gap-5 w-full mx-auto text-center">
+            <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto lg:py-[92px]">
+                <div className="flex flex-col items-center gap-3 lg:gap-8 w-full mx-auto text-center">
                     <h2 className="text-primary-acccent text-sm">OPEN ROLES</h2>
-                    <h1 className="text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
+                    <h1 className="text-3xl lg:text-[82px] font-bold font-Manrope text-center text-title">
                         Join Our Team
                     </h1>
-                    <p className="w-full mx-auto font-Manrope text-xl text-gray-600 lg:pb-16">
+                    <p className="w-full mx-auto font-Manrope lg:text-xl text-gray-600 lg:pb-16">
                         As a member of the Agenpo family, you contribute to the vibrancy of our culture, making it a beacon for excellence in the dynamic world we navigate together. Welcome to a workplace where culture isn't just a buzzword; it's the soul of our success.
                     </p>
                 </div>
 
-                <div className="flex flex-col gap-4 mb-8">
+                <div className="flex flex-col gap-4 my-8">
                     <h2 className="font-bold font-Manrope text-gray-800 text-2xl">Engineering</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
                         <div className="flex flex-col gap-4 bg-white rounded-md p-4 hover:scale-95 duration-300">
                             <h2 className="text-xl font-bold text-title">Software Engineer</h2>
                             <div className="flex flex-wrap gap-4">

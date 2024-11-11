@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="bg-white border-t border-gray-200 text-sm w-full">
             <div className="grid grid-cols-12 gap-y-10 w-full max-w-[1280px] mx-auto pt-10 lg:pt-24 px-5 lg:px-0 ">
                 <div className="col-span-12 lg:col-span-4 flex flex-col gap-3 text-lg lg:max-w-[295px]">
-                    <p className="text-gray-700 w-[60%] md:w-full">Transforming the Agribusiness value chain in Africa.</p>
+                    <p className="text-gray-700 md:w-full">Transforming the Agribusiness value chain in Africa.</p>
                     <div className="flex items-center flex-wrap gap-5 mt-4">
                         <a href={"https://www.facebook.com/Agenpo"} target="_blank">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
