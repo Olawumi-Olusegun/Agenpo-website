@@ -12,7 +12,7 @@ const FAQs = () => {
                 </Hero.Description>
             </Hero>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> General </h1>
             </div>
 
@@ -61,7 +61,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> FarmSider </h1>
             </div>
 
@@ -84,7 +84,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Coproma </h1>
             </div>
 
@@ -106,7 +106,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Acetraedr </h1>
             </div>
 
@@ -128,7 +128,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Werhously </h1>
             </div>
 
@@ -151,7 +151,7 @@ const FAQs = () => {
             </Accordion>
 
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Haula </h1>
             </div>
 
@@ -173,7 +173,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Korprativ </h1>
             </div>
 
@@ -195,7 +195,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> AgriGeitor </h1>
             </div>
 
@@ -217,7 +217,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Certoma </h1>
             </div>
 
@@ -239,7 +239,7 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <div className="w-full max-w-[900px] mx-auto p-5 py-6 lg:px-0 ">
+            <div className="w-full max-w-[900px] mx-auto p-5 lg:px-0 ">
                 <h1 className="text-lg font-semibold text-title"> Inspecktr </h1>
             </div>
 

@@ -35,7 +35,7 @@ export default function MobileNav() {
         <>
             <div className="lg:hidden fixed bg-white font-Manrope border-b top-0 left-0 z-[90] w-full flex items-center px-3 py-5 justify-between">
 
-                <Link to={"/"} onClick={() => setMenuOpen(false)} className="flex items-center lg:hidden">
+                <Link to={"/"} onClick={() => setMenuOpen(false)} className="flex items-center lg:hidden outline-none border-none">
                     <img src="./assets/images/Agenpo-logo-large.png" alt="Agenpo Logo" className="w-full h-full object-cover object-center" />
                 </Link>
 

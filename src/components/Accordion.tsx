@@ -18,7 +18,7 @@ export const Accordion = ({ children, onChange, title, subTitle, className, ...p
     const [selected, setSelected] = useState<string | null>(null);
 
     return (
-        <div className={cn("w-full max-w-[1216px] mx-auto p-5 lg:px-0 my-10 bg-white rounded-md", className)}>
+        <div className={cn("w-full max-w-[1216px] mx-auto p-5 lg:px-0 my-5 bg-white rounded-md", className)}>
 
             <div className={`flex items-center flex-col ${title || subTitle ? " my-10" : ""} `}>
                 <h1 className="text-green-700 pb-5">{title}</h1>

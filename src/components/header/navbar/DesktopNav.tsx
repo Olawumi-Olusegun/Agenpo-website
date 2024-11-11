@@ -45,7 +45,7 @@ const DesktopNav = () => {
         <header
             className={cn("hidden lg:block fixed top-0 pt-5 left-0 right-0 z-[100] w-full bg-[#FAFAFA] transition-all", isScrolled && "bg-[#FAFAFA]")}>
             <div className="max-w-[1087px] mx-auto flex h-20 bg-white rounded-full px-5 items-center justify-between">
-                <Link to={"/"} className="flex items-center w-[123px] h-[35px] ">
+                <Link to={"/"} className="flex items-center w-[123px] h-[35px] outline-none border-none">
                     <img src="./assets/images/Agenpo-logo-large.png" alt="Agenpo Logo" className="w-full h-full object-cover object-center" />
                 </Link>
 
