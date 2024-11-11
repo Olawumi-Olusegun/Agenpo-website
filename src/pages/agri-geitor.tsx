@@ -98,7 +98,7 @@ const AgriGeitor = () => {
             <section className="relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10 ">
                 <img src="./assets/images/app-ui-01.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none w-[250px] " />
                 <img src="./assets/images/app-ui-02.png" alt="" className="hidden lg:block absolute right-0 bottom-0  pointer-events-none w-[250px]" />
-                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-3">
+                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-3 p-5">
                     <h2 className="font-Manrope text-3xl lg:text-5xl text-title text-center font-bold px-6">Ready to get started?</h2>
                     <p className="text-center text-gray-600 px-6">Sell your aggregated produce to a wide range of traders efficiently.</p>
                     <div className="flex items-center justify-center gap-5">

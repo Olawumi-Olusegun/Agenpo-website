@@ -14,7 +14,7 @@ const Werhously = () => {
                 </Hero.Description>
 
                 <Hero.ButtonGroup>
-                    <Hero.Button className="">
+                    <Hero.Button className="w-full md:w-fit">
                         Get Started
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.25 12H20.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -22,7 +22,7 @@ const Werhously = () => {
                         </svg>
                     </Hero.Button>
 
-                    <Hero.Button className="bg-transparent outline outline-1 px-8 outline-primary text-primary">
+                    <Hero.Button className="w-full md:w-fit bg-transparent outline outline-1 px-8 outline-primary text-primary">
                         Log In
                     </Hero.Button>
                 </Hero.ButtonGroup>
