@@ -84,7 +84,7 @@ export default function MobileNav() {
                                     <button
                                         onClick={() => handleClick(index)}
                                         className={cn(
-                                            "text-muted w-full hover:cursor-pointer rounded-md font-semibold text-gray-700 hover:bg-primary hover:text-white transition duration-300 ease-in-out py-2 px-2 flex items-center justify-between",
+                                            "w-full hover:cursor-pointer rounded-md font-semibold text-gray-700 hover:bg-primary hover:text-white transition duration-300 ease-in-out py-2 px-2 flex items-center justify-between",
                                             pathname === link.href && "bg-primary text-white",
                                             openedMenu === index && "bg-primary text-white"
                                         )}
@@ -124,7 +124,7 @@ export default function MobileNav() {
                                                             <Link
                                                                 to={subItem.href}
                                                                 key={subItem.label}
-                                                                className="p-2 hover:bg-primary/80 hover:text-white duration-300 block text-sm transition pl-4"
+                                                                className="p-2 hover:bg-primary/80 text-gray-700  hover:text-white duration-300 block text-sm transition pl-4"
                                                             >
                                                                 {subItem.label}
                                                             </Link>

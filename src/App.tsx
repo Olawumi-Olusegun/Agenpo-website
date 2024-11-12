@@ -22,6 +22,7 @@ import Inspecktr from "./pages/inspecktr"
 import Blog from "./pages/blog"
 import Careers from "./pages/careers"
 import FAQs from "./pages/faqs"
+import Produce from "./pages/produce"
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/careers" element={<Careers />} />
+              <Route path="/produce" element={<Produce />} />
               <Route path="/faqs" element={<FAQs />} />
 
               {/* solutions */}

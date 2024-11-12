@@ -31,19 +31,9 @@ export type SubLinks = {
           {
             subMenu: [
               {
-                label: "Coproma",
-                href: "/Coproma",
-                description: "Food processors and manufacturers can access, order, receive, and pay for certified produce raw materials, while being able to lock-in prices for future delivery.",
-              },
-              {
                 label: "FarmSider",
                 href: "/FarmSider",
                 description: "Farmers can now access a larger pool of buyers year-round for their produce with FarmSider, in addition to the all-important input financing.",
-              },
-              {
-                label: "Korprativ",
-                href: "/Korprativ",
-                description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
               },
               {
                 label: "Certoma",
@@ -56,9 +46,29 @@ export type SubLinks = {
                 description: "Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing.",
               },
               {
+                label: "AceTraedr",
+                href: "/AceTraedr",
+                description: "Agro trading firms can buy, sell, and deliver quality-assured produce, making and receiving payments from any location.",
+              },
+              {
                 label: "AgriGeitor",
                 href: "/AgriGeitor",
                 description: "Agro warehouse managers can earn and manage their warehouse operations end-to-end.",
+              },
+              {
+                label: "Korprativ",
+                href: "/Korprativ",
+                description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
+              },
+              {
+                label: "Haula",
+                href: "/Haula",
+                description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
+              },
+              {
+                label: "Coproma",
+                href: "/Coproma",
+                description: "Food processors and manufacturers can access, order, receive, and pay for certified produce raw materials, while being able to lock-in prices for future delivery.",
               },
               {
                 label: "Inspecktr",

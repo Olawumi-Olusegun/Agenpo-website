@@ -99,21 +99,21 @@ const DesktopNav = () => {
                         <div
                             ref={subRef}
                             className={cn(
-                                `absolute top-20  ${isResourcesLabel ? "right-40 max-w-[379px] mx-auto" : "left-1/2 -translate-x-1/2 max-w-7xl  mx-auto"} w-full`,
+                                `absolute top-20  ${isResourcesLabel ? "right-40 max-w-[379px] mx-auto" : "right-36 max-w-[512px]  mx-auto"} w-full`,
                                 hovering || hovering === 0
                                     ? "opacity-100"
                                     : "opacity-0 border-none"
                             )}
                             onMouseLeave={() => setHovering(null)}
                         >
-                            <div className={`${isSolutionsLabel && "max-w-7xl"} ${isResourcesLabel && "max-w-[379px]"} mx-auto gap-6 p-5 bg-white shadow-sm rounded-md `}>
+                            <div className={`${isSolutionsLabel && "max-w-[512px]"} ${isResourcesLabel && "max-w-[379px]"} mx-auto p-4 bg-white shadow-sm rounded-md `}>
 
                                 {hovering !== null &&
                                     links[hovering].subLinks?.map((subLink, index) => {
 
                                         return (
                                             <React.Fragment key={index}>
-                                                <div className={cn(`grid grid-cols-1 gap-5 h-full ${isSolutionsLabel && "lg:grid-cols-4"} ${isResourcesLabel && "lg:grid-cols-1"} `)}>
+                                                <div className={cn(`grid grid-cols-1 gap-y-6 h-full ${isSolutionsLabel && "lg:grid-cols-2"} ${isResourcesLabel && "lg:grid-cols-1"} `)}>
                                                     {subLink.subMenu && (
                                                         <>
                                                             {subLink.subMenu.map((menuItem) => (
@@ -123,9 +123,9 @@ const DesktopNav = () => {
                                                                     onClick={toggleMenu}
                                                                     className="text-muted block text-sm hover:text-accent transition duration-300 hover:bg-primary/5 rounded-md px-4 py-2"
                                                                 >
-                                                                    <div className="flex flex-col gap-3">
-                                                                        <span className="text-xl text-gray-800 font-bold">{menuItem.label}</span>
-                                                                        <span className="text-base text-gray-700">{menuItem.description}</span>
+                                                                    <div className="flex flex-col gap-2">
+                                                                        <span className="text-gray-800 font-bold">{menuItem.label}</span>
+                                                                        <span className="text-gray-700 text-sm">{menuItem.description}</span>
                                                                     </div>
                                                                 </Link>
                                                             ))}
