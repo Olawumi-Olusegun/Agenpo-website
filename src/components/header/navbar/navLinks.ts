@@ -20,7 +20,7 @@ export type SubLinks = {
     },
     {
       label: "About",
-      href: "/about",
+      href: "/about-us",
     },
     {
         label: "Solutions",

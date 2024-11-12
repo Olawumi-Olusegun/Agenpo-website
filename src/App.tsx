@@ -33,7 +33,7 @@ function App() {
             <meta charSet="utf-8" />
             <title>Agenpo: Get Into Agribusiness</title>
             <meta name="description" content="Explore more ways to get into agribusiness beyond farming. Now you can get in as a transporter, aggregator, food processor, warehouse owner or trader, in just minutes." />
-            {/* <meta property="og:image" content={`${window.location.origin}/assets/images/Maiaddy-logo.png`} /> */}
+            <meta property="og:image" content={`${window.location.origin}/assets/images/Agenpo-img.png`} />
             <meta property="og:image:type" content="image/png" />
             <meta property="og:image:width" content="28.27" />
             <meta property="og:image:height" content="35.76" />
