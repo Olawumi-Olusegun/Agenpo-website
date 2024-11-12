@@ -4,11 +4,11 @@ import SolutionsSection from "../components/ui/SolutionsSection"
 import { AccordionItem, Accordion } from "../components/Accordion"
 
 
-const Inspecktr = () => {
+const Inspektr = () => {
     return (
         <>
             <Hero>
-                <Hero.Title>Inspecktr</Hero.Title>
+                <Hero.Title>Inspektr</Hero.Title>
                 <Hero.Description>
                     Inspektr is a dedicated mobile app used by certification officers or quality inspectors on the field to input their findings. This mobile app complements Certoma and is only useful to its potential users when they are invited, onboarded and activated by their employer using the Certoma web platform.
                 </Hero.Description>
@@ -152,4 +152,4 @@ const Inspecktr = () => {
     )
 }
 
-export default Inspecktr
+export default Inspektr

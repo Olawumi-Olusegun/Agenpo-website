@@ -18,7 +18,7 @@ import Haula from "./pages/haula"
 import Korprativ from "./pages/korprativ"
 import AgriGeitor from "./pages/agri-geitor"
 import Certoma from "./pages/certoma"
-import Inspecktr from "./pages/inspecktr"
+import Inspektr from "./pages/inspektr"
 import Blog from "./pages/blog"
 import Careers from "./pages/careers"
 import FAQs from "./pages/faqs"
@@ -43,7 +43,7 @@ function App() {
 
             <Route element={<RootLayout />}>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<AboutUs />} />
+              <Route path="/about-us" element={<AboutUs />} />
               <Route path="/solutions" element={<Solutions />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/contact-us" element={<ContactUs />} />
@@ -61,7 +61,7 @@ function App() {
               <Route path="/Korprativ" element={<Korprativ />} />
               <Route path="/AgriGeitor" element={<AgriGeitor />} />
               <Route path="/Certoma" element={<Certoma />} />
-              <Route path="/Inspecktr" element={<Inspecktr />} />
+              <Route path="/Inspektr" element={<Inspektr />} />
             </Route>
 
             <Route element={<AuthLayout />}>

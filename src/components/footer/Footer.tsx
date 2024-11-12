@@ -50,14 +50,14 @@ const Footer = () => {
                 <div className="col-span-6 md:col-span-4 lg:col-span-1 flex flex-col gap-3">
                     <h2 className="text-title text-sm uppercase">Products</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
-                        <Link to={"#"}>FarmSider</Link>
+                        <Link to={"/FarmSider"}>FarmSider</Link>
                         <Link to={"/AgriGeitor"}>AgriGeitor</Link>
                         <Link to={"/Korprativ"}>Korprativ</Link>
                         <Link to={"/AceTraedr"}>AceTraedr</Link>
                         <Link to={"/Werhously"}>Werhously</Link>
                         <Link to={"/Coproma"}>Coproma</Link>
                         <Link to={"/Certoma"}>Certoma</Link>
-                        <Link to={"/Inspecktr"}>Inspecktr</Link>
+                        <Link to={"/Inspektr"}>Inspektr</Link>
                         <Link to={"/Haula"}>Haula</Link>
                     </div>
                 </div>
