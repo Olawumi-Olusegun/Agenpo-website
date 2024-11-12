@@ -14,8 +14,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/maize.png" alt="maize-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/maize.png" alt="maize-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Maize - MA</h2>
@@ -56,8 +56,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/SesameSeeds.png" alt="SesameSeeds-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/SesameSeeds.png" alt="SesameSeeds-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Sesame Seeds - SE</h2>
@@ -98,8 +98,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/Sorghum.png" alt="Sorghum-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/Sorghum.png" alt="Sorghum-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Sorghum - SO</h2>
@@ -140,8 +140,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/PaddyRice.png" alt="PaddyRice-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/PaddyRice.png" alt="PaddyRice-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Paddy Rice</h2>
@@ -182,8 +182,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/SoyaBeans.png" alt="SoyaBeans-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/SoyaBeans.png" alt="SoyaBeans-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Soya Beans - SY</h2>
@@ -224,8 +224,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/Millet.png" alt="Millet-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/Millet.png" alt="Millet-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Millet - MT</h2>
@@ -267,8 +267,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/Ginger.png" alt="Ginger-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/Ginger.png" alt="Ginger-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Ginger - GR</h2>
@@ -310,8 +310,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/GumArabic.png" alt="GumArabic-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/GumArabic.png" alt="GumArabic-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Gum Arabic - GC</h2>
@@ -354,8 +354,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/CashewNuts.png" alt="CashewNuts-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/CashewNuts.png" alt="CashewNuts-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Cashew Nuts - CW</h2>
@@ -398,8 +398,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/Coffee.png" alt="Coffee-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/Coffee.png" alt="Coffee-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Coffee - CE</h2>
@@ -441,8 +441,8 @@ const Produce = () => {
 
                 <div className="flex flex-col gap-4 gap-y-6 bg-white rounded-md p-4 shadow-sm">
                     <div className="flex items-center gap-2">
-                        <div className="size-[60px]">
-                            <img className="pointer-events-none" src="./assets/images/produce/Cocoa.png" alt="Cocoa-image" />
+                        <div className="size-[60px] rounded-md">
+                            <img className="pointer-events-none rounded-md " src="./assets/images/produce/Cocoa.png" alt="Cocoa-image" />
                         </div>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-2xl text-gray-900 font-bold">Cocoa - CC</h2>
@@ -485,8 +485,8 @@ const Produce = () => {
             </div>
 
             <section className="relative py-6 lg:py-0 px-5 lg:px-0 bg-white rounded-md w-full lg:max-w-[1216px] mx-auto overflow-hidden my-10">
-                <img className="pointer-events-none" src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
-                <img className="pointer-events-none" src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
                 <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
                     <h2 className="w-full px-6 font-Manrope text-3xl lg:text-5xl text-title text-center font-bold ">Ready to start trading?</h2>
                     <p className="px-6 text-center text-primary-acccent font-Manrope ">Buy, sell & deliver quality-assured produce from the comfort of any location.</p>
