@@ -460,8 +460,29 @@ const Produce = () => {
                     </Link> */}
                 </div>
 
-
             </div>
+
+            <section className="relative py-6 lg:py-0 px-5 lg:px-0 bg-white rounded-md w-full lg:max-w-[1216px] mx-auto overflow-hidden my-10">
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
+                <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
+                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
+                    <h2 className="w-full px-6 font-Manrope text-3xl lg:text-5xl text-title text-center font-bold ">Ready to start trading?</h2>
+                    <p className="px-6 text-center text-primary-acccent font-Manrope ">Buy, sell & deliver quality-assured produce from the comfort of any location.</p>
+                    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4">
+                        <Link to="/contact-us" className="group flex items-center justify-center gap-1.5 w-full lg:w-fit px-8 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
+                            Get Started
+                            <svg className="group-hover:translate-x-1 transition duration-300" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.75 12H20.25" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M13.5 5.25L20.25 12L13.5 18.75" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        </Link>
+                        <Link to="#" className="group flex items-center justify-center gap-1.5 w-full lg:w-fit px-8 py-3 rounded-2xl hover:bg-opacity-90 text-primary outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
+                            Log In
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
         </>
     )
 }
