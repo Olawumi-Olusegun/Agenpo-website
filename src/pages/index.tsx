@@ -13,7 +13,7 @@ const Home = () => {
                 </Hero.Description>
 
                 <Hero.ButtonGroup>
-                    <a href={"https://t.me/+4kXbKlOQe0JiY2Vk"} target="_blank" className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent">
+                    <a href={"https://t.me/+4kXbKlOQe0JiY2Vk"} target="_blank" className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent transition-all duration-300">
                         <span>Join Our Telegram Community</span>
                         <svg className="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_16683_1627)">

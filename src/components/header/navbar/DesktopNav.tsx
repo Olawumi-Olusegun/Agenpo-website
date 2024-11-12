@@ -12,6 +12,10 @@ const DesktopNav = () => {
     const [hovering, setHovering] = useState<number | null>(null);
     const subRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
+    const isSolutionsLabel = links[hovering!]?.label === "Solutions";
+    const isResourcesLabel = links[hovering!]?.label === "Resources";
+
+
     useEffect(() => {
         const handleScroll = () => {
             if (typeof window !== "undefined") {
@@ -95,45 +99,42 @@ const DesktopNav = () => {
                         <div
                             ref={subRef}
                             className={cn(
-                                "absolute top-20 left-0 w-full bg-background transition-all ease-in-out",
+                                `absolute top-20  ${isResourcesLabel ? "right-40 max-w-[379px] mx-auto" : "left-1/2 -translate-x-1/2 max-w-7xl  mx-auto"} w-full`,
                                 hovering || hovering === 0
                                     ? "opacity-100"
                                     : "opacity-0 border-none"
                             )}
                             onMouseLeave={() => setHovering(null)}
                         >
-                            <div className="max-w-7xl mx-auto gap-6 p-5 bg-white shadow-sm ">
-                                {hovering !== null &&
-                                    links[hovering].subLinks?.map((subLink, index) => (
-                                        <React.Fragment key={index}>
-                                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 h-full">
-                                                {subLink.subMenu && (
-                                                    <>
-                                                        {subLink.subMenu.map((menuItem) => (
-                                                            <Link
-                                                                key={menuItem.label}
-                                                                to={menuItem.href}
-                                                                onClick={toggleMenu}
-                                                                className="text-muted block text-sm hover:text-accent transition"
-                                                            >
-                                                                <div className="flex flex-col gap-3">
-                                                                    <span className="text-xl text-gray-800 font-bold">{menuItem.label}</span>
-                                                                    <span className="text-base  text-neutral-70">{menuItem.description}</span>
-                                                                    <span className="group flex items-center gap-2 text-primary-70 hover:text-primary-70/80">
-                                                                        <span className="text-base">Learn More</span>
-                                                                        <svg className="group-hover:translate-x-1 duration-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                            <path d="M16.172 11.0007L10.808 5.63666L12.222 4.22266L20 12.0007L12.222 19.7787L10.808 18.3647L16.172 13.0007H4V11.0007H16.172Z" fill="#336699" />
-                                                                        </svg>
-                                                                    </span>
-                                                                </div>
-                                                            </Link>
-                                                        ))}
-                                                    </>
-                                                )}
-                                            </div>
+                            <div className={`${isSolutionsLabel && "max-w-7xl"} ${isResourcesLabel && "max-w-[379px]"} mx-auto gap-6 p-5 bg-white shadow-sm rounded-md `}>
 
-                                        </React.Fragment>
-                                    ))}
+                                {hovering !== null &&
+                                    links[hovering].subLinks?.map((subLink, index) => {
+
+                                        return (
+                                            <React.Fragment key={index}>
+                                                <div className={cn(`grid grid-cols-1 gap-5 h-full ${isSolutionsLabel && "lg:grid-cols-4"} ${isResourcesLabel && "lg:grid-cols-1"} `)}>
+                                                    {subLink.subMenu && (
+                                                        <>
+                                                            {subLink.subMenu.map((menuItem) => (
+                                                                <Link
+                                                                    key={menuItem.label}
+                                                                    to={menuItem.href}
+                                                                    onClick={toggleMenu}
+                                                                    className="text-muted block text-sm hover:text-accent transition duration-300 hover:bg-primary/5 rounded-md px-4 py-2"
+                                                                >
+                                                                    <div className="flex flex-col gap-3">
+                                                                        <span className="text-xl text-gray-800 font-bold">{menuItem.label}</span>
+                                                                        <span className="text-base text-gray-700">{menuItem.description}</span>
+                                                                    </div>
+                                                                </Link>
+                                                            ))}
+                                                        </>
+                                                    )}
+                                                </div>
+                                            </React.Fragment>
+                                        )
+                                    })}
                             </div>
                         </div>
                     </nav>
