@@ -41,24 +41,24 @@ export type SubLinks = {
                 description: "Certification companies can manage a team of produce quality inspectors in any location effortlessly.",
               },
               {
-                label: "Werhously",
-                href: "/Werhously",
-                description: "Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing.",
-              },
-              {
                 label: "AceTraedr",
                 href: "/AceTraedr",
                 description: "Agro trading firms can buy, sell, and deliver quality-assured produce, making and receiving payments from any location.",
               },
               {
-                label: "AgriGeitor",
-                href: "/AgriGeitor",
-                description: "Agro warehouse managers can earn and manage their warehouse operations end-to-end.",
+                label: "Werhously",
+                href: "/Werhously",
+                description: "Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing.",
               },
               {
                 label: "Korprativ",
                 href: "/Korprativ",
                 description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
+              },
+              {
+                label: "AgriGeitor",
+                href: "/AgriGeitor",
+                description: "Agro warehouse managers can earn and manage their warehouse operations end-to-end.",
               },
               {
                 label: "Haula",
