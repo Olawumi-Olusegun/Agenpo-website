@@ -78,12 +78,12 @@ const Home = () => {
                         image="./assets/images/Werhously.png"
                         href="/Werhously"
                         imageStyle="mx-auto"
-                        title="Werhously" description="Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing." />
+                        title="Werhously" description="Agro warehouse managers can earn and manage their warehouse operations end-to-end." />
                     <SolutionsSection.GridItem
                         image="./assets/images/AgriGeitor.png"
                         href="/AgriGeitor"
                         imageStyle="mx-auto -mb-4"
-                        title="AgriGeitor" description="Agro warehouse managers can earn and manage their warehouse operations end-to-end." />
+                        title="AgriGeitor" description="Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing." />
 
                     <SolutionsSection.GridItem
                         image="./assets/images/Inspecktr.png"
