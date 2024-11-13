@@ -5,7 +5,6 @@ import { links } from "./navLinks";
 import { cn } from "../../../utils/cn";
 
 
-
 const DesktopNav = () => {
     const { pathname } = useLocation();
     const [isScrolled, setIsScrolled] = useState(false);
@@ -99,21 +98,20 @@ const DesktopNav = () => {
                         <div
                             ref={subRef}
                             className={cn(
-                                `absolute top-20  ${isResourcesLabel ? "right-40 max-w-[379px] mx-auto" : "right-36 max-w-[512px]  mx-auto"} w-full`,
+                                `absolute top-20  ${isResourcesLabel ? "right-40 max-w-[379px] mx-auto" : "right-36 max-w-[803px]  mx-auto"} w-full`,
                                 hovering || hovering === 0
                                     ? "opacity-100"
                                     : "opacity-0 border-none"
                             )}
                             onMouseLeave={() => setHovering(null)}
                         >
-                            <div className={`${isSolutionsLabel && "max-w-[512px]"} ${isResourcesLabel && "max-w-[379px]"} mx-auto p-4 bg-white shadow-sm rounded-md `}>
+                            <div className={`${isSolutionsLabel && "max-w-[803px]"} ${isResourcesLabel && "max-w-[379px]"} mx-auto p-4 bg-white shadow-sm rounded-md `}>
 
                                 {hovering !== null &&
                                     links[hovering].subLinks?.map((subLink, index) => {
-
                                         return (
                                             <React.Fragment key={index}>
-                                                <div className={cn(`grid grid-cols-1 gap-y-6 h-full ${isSolutionsLabel && "lg:grid-cols-2"} ${isResourcesLabel && "lg:grid-cols-1"} `)}>
+                                                <div className={cn(`grid grid-cols-1 gap-y-6 h-full ${isSolutionsLabel && "lg:grid-cols-3"} ${isResourcesLabel && "lg:grid-cols-1"} `)}>
                                                     {subLink.subMenu && (
                                                         <>
                                                             {subLink.subMenu.map((menuItem) => (
