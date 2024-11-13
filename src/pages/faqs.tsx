@@ -261,13 +261,13 @@ const FAQs = () => {
                 </AccordionItem>
             </Accordion>
 
-            <section className="p-6 relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
+
+            <section className="pb-6 relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
-                <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
+                <div className="p-5 lg:p-0 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
                     <h2 className="px-6 font-Manrope text-3xl lg:text-5xl text-title text-center font-bold ">Still have questions?</h2>
                     <p className="px-6 text-center text-gray-600 ">Can't find the answer you're looking for? Please chat to our friendly team.</p>
-
                     <Link to="/contact-us" className="group flex items-center justify-center gap-3 bg-primary hover:bg-opacity-90 duration-300 w-full lg:w-fit text-white border border-transparent px-6 py-3 rounded-2xl">
                         <span>Contact Us</span>
                         <svg className="flex-shrink-0 group-hover:translate-x-1 transition duration-300" width="10" height="12" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
