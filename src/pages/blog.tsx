@@ -380,14 +380,14 @@ const Blog = () => {
                 </div>
             </section>
 
-            <section className="py-6 relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
+            <section className="pb-6 relative bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block absolute right-0 bottom-0 rotate-180 pointer-events-none" />
                 <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 flex flex-col items-center justify-center gap-5">
-                    <h2 className="px-6 font-Manrope text-3xl lg:text-5xl text-[#212121] text-center font-bold ">Stay Informed</h2>
-                    <p className="px-6 text-center text-[#757575] ">Be the first to get access to Top stories and information about agriculture  news from Agenpo</p>
+                    <h2 className="px-6 font-Manrope text-3xl lg:text-5xl text-title text-center font-bold ">Stay Informed</h2>
+                    <p className="px-6 text-center text-gray-700 ">Be the first to get access to Top stories and information about agriculture  news from Agenpo</p>
                     <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4  px-5">
-                        <input type="text" placeholder="Enter email address" className="w-full lg:w-fit p-3 outline outline-1 outline-primary rounded-md focus:outline-2" />
+                        <input type="text" placeholder="Enter email address" className="w-full lg:max-w-[384px] p-3 outline outline-1 outline-primary rounded-md focus:outline-2" />
                         <button className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-md bg-primary hover:bg-opacity-90 text-white outline outline-1 outline-primary focus:outline-2 duration-200 border border-transparent">
                             Subscribe
                         </button>
