@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">INTRODUCTION</h2>
                     <p className="text-gray-700">
-                        Data/Information means any information relating to you, including your name, identification number, location data, online identifier address, photo, email address, pins, passwords, bank details, posts on our Platform, religion, date of birth, health, race/tribe, nationality, ethnicity, political views, trades union membership, criminal records, medical information, and other unique identifiers such as but not limited to MAC address, IP address, International Mobile Equipment Identity (IMEI) number, Bank Verification Number, International Mobile Subscriber Identity (IMSI) number, Subscriber Identification Module (SIM) and others. It also includes factors specific to your physical, physiological, genetic, mental, economic, cultural or social identity.
+                        Agenpo Technologies LTD (“Agenpo”,“we”, “us”, “our” “Company”), recognizes your privacy rights as guaranteed under the 1999 Constitution of the Federal Republic of Nigeria; the Nigerian Data Protection Regulation 2019 issued by the National Information Technology Development Agency (NITDA), and the privacy provisions in other relevant laws applicable to our business in Nigeria. Thus, it is important to us as a law-abiding organization that your Personal Data is managed, processed and protected in accordance with the provisions of the applicable laws. In the course of our business and/or your engagement with us and third parties through our Platform (this includes but are not limited to our website, digital platform, mobile applications, physical operations/offices, amongst others), we may process your Personal Data, subject however to the terms of this Policy. This Privacy Policy (“Policy”) therefore explains our privacy practices with respect to how we process your Personal Data and describes your rights as a user of any of our services and Platform.
                         <br />
                         This Policy applies to our Platform, and all related sites, applications, services and tools regardless of how they are accessed or used.
                     </p>
@@ -34,7 +34,7 @@ const PrivacyPolicy = () => {
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
-                    <h2 className="text-lg lg:text-xl text-gray-900 font-bold">DEFINITION</h2>
+                    <h2 className="text-lg lg:text-xl text-gray-900 font-bold">CONSENT</h2>
                     <p className="text-gray-700">
                         We kindly request that you carefully read through this Policy and click on the 'Agree' icon below, if you consent to the terms of this Policy, particularly with respect to the processing of your Personal Data. That notwithstanding, if you proceed to use our Platform and services, it will deemed that you have provided your express consent to the terms of this Policy.
                     </p>
