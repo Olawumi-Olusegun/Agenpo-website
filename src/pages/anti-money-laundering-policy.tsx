@@ -12,13 +12,10 @@ const AntiMoneyLaunderingPolicy = () => {
                     </p>
                 </div>
             </section>
-            <section className="w-full flex flex-col gap-6 lg:gap-12 px-5 lg:px-0 lg:max-w-[816px] mx-auto my-8 lg:my-16 ">
+            <section className="w-full flex flex-col gap-6 lg:gap-12 px-5 lg:px-0 lg:max-w-[816px] mx-auto mb-16 ">
                 <article className="flex flex-col gap-4">
-                    <h2 className="text-lg lg:text-xl text-gray-900 font-medium">INTRODUCTION</h2>
-                    <p className="text-gray-700 lg:text-xl">
-                        Data/Information means any information relating to you, including your name, identification number, location data, online identifier address, photo, email address, pins, passwords, bank details, posts on our Platform, religion, date of birth, health, race/tribe, nationality, ethnicity, political views, trades union membership, criminal records, medical information, and other unique identifiers such as but not limited to MAC address, IP address, International Mobile Equipment Identity (IMEI) number, Bank Verification Number, International Mobile Subscriber Identity (IMSI) number, Subscriber Identification Module (SIM) and others. It also includes factors specific to your physical, physiological, genetic, mental, economic, cultural or social identity.
-                        <br />
-                        <br />
+                    <p className="text-gray-700 my-4">Our website address is https://agenpo.com</p>
+                    <p className="text-gray-700">
                         Agenpo Technologies LTD (“Agenpo”/“Company”) operates a data-security conscious environment that enforces a diligent and proactive collection, processing, and management of data in a systematic and legally permissible manner. Data received, generated and processed by the Agenpo are key assets that must be managed in accordance with the extant data protection laws and regulations. This Data Management Policy (“Policy”) outlines the data management framework for Data collection, storage, security, processing, maintenance, dissemination and any other data related activity.
                         <br />
                         <br />
@@ -31,8 +28,8 @@ const AntiMoneyLaunderingPolicy = () => {
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Definitions</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">For the purpose of this Policy:</p>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700 font-medium">For the purpose of this Policy:</p>
+                    <p className="text-gray-700">
                         “Data Controller” means persons who either alone, jointly with other persons or in common with other persons or as a statutory body determines the purpose for and the manner in which Data is processed or is to be processed, and where the context admits, includes a Data User.
                         <br />
                         <br />
@@ -57,8 +54,8 @@ const AntiMoneyLaunderingPolicy = () => {
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Data Protection Officer</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">In accordance with the NDPR, Agenpo has designated a Data Protection Officer (DPO) for the purpose of implementing this Policy and ensuring adherence to the NDPR and this Policy. The responsibilities of the DPO are as follows:</p>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700 font-medium">In accordance with the NDPR, Agenpo has designated a Data Protection Officer (DPO) for the purpose of implementing this Policy and ensuring adherence to the NDPR and this Policy. The responsibilities of the DPO are as follows:</p>
+                    <p className="text-gray-700">
                         <span className="font-medium">Operational oversight:</span>
                         <br />
                         The DPO shall be responsible for overseeing the life cycle of a set of Data. In doing this, the DPO will be responsible for defining and implementing policies and procedures for the day-to-day operational and administrative management of Data — including the collection, storage, processing, and transmission of data to internal and external systems.
@@ -104,25 +101,25 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Privacy Policy</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">For the purpose of this Policy:</p>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700 font-medium">For the purpose of this Policy:</p>
+                    <p className="text-gray-700">
                         Agenpo maintains a Privacy Policy posted on its website, and its digital platforms, and maintained in hard copies. The Privacy Policy can be assessed here www.agenpo.com. Hard copies of the Privacy Policy may also be requested from the DPO. It is the responsibility of the Data Controller and Data User to carefully study and comply with the terms of the Privacy Policy. Any breach of this Policy or the Privacy Policy by a Data Controller and Data User may result in disciplinary action, sanctions or termination of any contract between Agenpo and the Data Controller and Data User.
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Privacy Notices</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">Agenpo aims at ensuring that Data Subjects are aware that their data is being processed and understand in clear and simple terms the following:</p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <p className="text-gray-700 font-medium">Agenpo aims at ensuring that Data Subjects are aware that their data is being processed and understand in clear and simple terms the following:</p>
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Who is processing their data</li>
                         <li>What data is involved and to what extent</li>
                         <li>The purpose for processing that data</li>
                         <li>The result of data processing</li>
                     </ol>
-                    <p className="text-gray-700 lg:text-xl font-medium">Agenpo will from time to time ensure that its employees, officers and the DPO undertake appropriate capacity development trainings on Data privacy/protection.</p>
+                    <p className="text-gray-700 font-medium">Agenpo will from time to time ensure that its employees, officers and the DPO undertake appropriate capacity development trainings on Data privacy/protection.</p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Data Security Principles</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Agenpo shall ensure that all its systems and operations which it uses in furtherance of its business operations or any contract, including all systems on which such Data is processed, are of a minimum standard required by all applicable laws and regulation, and are of a standard no less than the standards that are in compliance with the best industry practice for the protection, control and use of Data, including the following:
                         <br />
                         <br />
@@ -137,12 +134,12 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Data Processing Obligations</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">In processing any Data, the Data Controller shall:</p>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700 font-medium">In processing any Data, the Data Controller shall:</p>
+                    <p className="text-gray-700">
                         Agenpo shall ensure that all its systems and operations which it uses in furtherance of its business operations or any contract, including all systems on which such Data is processed, are of a minimum standard required by all applicable laws and regulation, and are of a standard no less than the standards that are in compliance with the best industry practice for the protection, control and use of Data, including the following:
                         <br />
                         <br />
-                        at all times strictly comply with this Policy, Agenpo’s Privacy Policy, and all applicable privacy/data protection laws and regulations which may be in force from time to time;
+                        at all times strictly comply with this Policy, Agenpo's Privacy Policy, and all applicable privacy/data protection laws and regulations which may be in force from time to time;
                         prior to the collection of Data from a Data Subject, inform the Data Subject of his/her rights, including the right to:
                         withdraw and ease of withdrawal of consent at any time, without affecting the lawfulness if processing based on consent before its withdrawal;
                         request from the Controller access to and rectification of Data;
@@ -170,14 +167,14 @@ const AntiMoneyLaunderingPolicy = () => {
                         take reasonable steps to identify all reasonably foreseeable internal and external risks posed to Data under its possession or control and establish and maintain appropriate safeguards against any risks identified. It shall regularly verify that the safeguards are effectively implemented and keep a record of such verification. The safeguards shall be updated continually in response to new risks or deficiencies in previously implemented safeguards.
                         following the discovery of a Data breach or suspected Data breach, it shall:
                     </p>
-                    <ol className="text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="text-gray-700 pl-4 lg:pl-0">
                         <span>i. immediately notify the DPO without undue delay, and provide the DPO with a description of the data breach, including so far as possible:</span>
                         <li>(a) the likely impact of the Data breach</li>
                         <li>(b) the categories and approximate number of Data Subjects affected, their country of residence, and the categories and approximate number of records affected</li>
                         <li>(c) reasonably foreseeable risks posed to data subject by the Data breach; and</li>
                         <li>(d) the measures taken or proposed to be taken to address the Data breach and to mitigate its adverse effects.</li>
                     </ol>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         The DPO shall thereafter, promptly implement and maintain all measures and steps that are necessary to remedy the data breach, mitigate its impact, and minimise the likelihood of a future data breach; and to the extent possible, restore any affected data.
                         <br />
                         promptly notify the DPO of:
@@ -197,7 +194,7 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Data Users shall at all times:</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Keep their passwords secret always.
                         <br />
                         Log into their corporate/Company accounts only from safe and authorized devices.
@@ -215,7 +212,7 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Antivirus</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Agenpo installs and updates anti-virus and other cyber security software on its computers, Platforms and data processing devices. Data Users are prohibited from deactivating or configuring settings and firewalls on Agenpo's systems without approval of Agenpo's IT Personnel. Data Users are also prohibited from processing Data on devices and/or systems that do not have an active and updated anti-virus.
                         <br />
                         Data Users are required to be careful when downloading and opening/executing files and software on devices used to process Data. If they are unsure if a file is safe, they must ask the IT manager/personnel or the DPO and only access same where they have been approved to do so. Data Users are are not permitted to use any external unprotected devices on Agenpo’s Data storage or processing systems. In such a case, such an external device must be scanned with the antivirus software and can only be used and/or opened on the computer where it is clear that such an action will not create any danger to the computer, nor corrupt files/documents on the computer/device.
@@ -223,7 +220,7 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Software</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         All Data Users are required to take sensible precautions to prevent and detect the introduction of malicious software. Data Users are not permitted to load or download or install software onto Agenpo's computer systems without approval from its IT personnel. Generally, all software must be installed by the IT personnel.
                         <br />
                         All Data User's must note and report immediately to Agenp's IT personnel any software that appears not to be functioning correctly. In the event of a software malfunction or a suspicion that a Data User's computer or software is not functioning properly, such person must:
@@ -240,19 +237,19 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">External Storage Devices (USB Flash drives)</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         External storage devices must only be used for general and non-confidential information. Sensitive Data must never be permanently stored in a Data User’s personal external storage device. Data Users must not share or lend an external storage device containing Data. Where a Data User is allowed to share Data with permitted third parties, the Data User must ensure that such permitted third parties understand the confidentiality obligations that such an action places upon them, and shall be responsible for ensuring such parties comply in that regard
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Secure Disposal</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Care should be taken when disposing or deleting any Data which has attained the destruction date as provided in the Privacy Policy. Disposal of Data or a Data processing equipment shall be carried out/overseen by the DPO.
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Email</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Agenpo shall ensure that its emails are secure and adequately protected from external interference. All official emails used to process Data must be kept secure at all time and should not be used in any manner that may put any Data at risk. Data Users are prohibited from sending Data from their official e-mail to their personal e-mails without Agenpo's authorization.
                         <br />
                         <br />
@@ -261,7 +258,7 @@ const AntiMoneyLaunderingPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">Review</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Agenpo shall assess and review this Data Management Policy from time to time, and may when necessary amend, suspend or rescind this Policy at any time. Whilst, the Company has made best efforts to define detailed procedures for implementation of this Policy, there may be occasions when certain matters are not addressed under this Policy. Such situation will be resolved in line with the broad intent of the Policy. The Company may also establish further rules and procedures, from time to time, to give effect to the intent of this Policy and further the objective of good corporate governance.
                     </p>
                 </article>

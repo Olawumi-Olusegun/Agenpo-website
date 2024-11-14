@@ -13,10 +13,10 @@ const PrivacyPolicy = () => {
                 </div>
             </section>
 
-            <section className="w-full flex flex-col gap-6 lg:gap-12 px-5 lg:px-0 lg:max-w-[816px] mx-auto my-8 lg:my-16 ">
+            <section className="w-full flex flex-col gap-6 lg:gap-12 px-5 lg:px-0 lg:max-w-[816px] mx-auto mb-16 ">
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">INTRODUCTION</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Data/Information means any information relating to you, including your name, identification number, location data, online identifier address, photo, email address, pins, passwords, bank details, posts on our Platform, religion, date of birth, health, race/tribe, nationality, ethnicity, political views, trades union membership, criminal records, medical information, and other unique identifiers such as but not limited to MAC address, IP address, International Mobile Equipment Identity (IMEI) number, Bank Verification Number, International Mobile Subscriber Identity (IMSI) number, Subscriber Identification Module (SIM) and others. It also includes factors specific to your physical, physiological, genetic, mental, economic, cultural or social identity.
                         <br />
                         This Policy applies to our Platform, and all related sites, applications, services and tools regardless of how they are accessed or used.
@@ -24,8 +24,8 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">DEFINITION</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">  For the purpose of this policy: </p>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700 font-medium">  For the purpose of this policy: </p>
+                    <p className="text-gray-700">
                         Data/Information means any information relating to you, including your name, identification number, location data, online identifier address, photo, email address, pins, passwords, bank details, posts on our Platform, religion, date of birth, health, race/tribe, nationality, ethnicity, political views, trades union membership, criminal records, medical information, and other unique identifiers such as but not limited to MAC address, IP address, International Mobile Equipment Identity (IMEI) number, Bank Verification Number, International Mobile Subscriber Identity (IMSI) number, Subscriber Identification Module (SIM) and others. It also includes factors specific to your physical, physiological, genetic, mental, economic, cultural or social identity.
                         <br />
                         <br />
@@ -35,22 +35,22 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">DEFINITION</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         We kindly request that you carefully read through this Policy and click on the 'Agree' icon below, if you consent to the terms of this Policy, particularly with respect to the processing of your Personal Data. That notwithstanding, if you proceed to use our Platform and services, it will deemed that you have provided your express consent to the terms of this Policy.
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">AGE</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         You must be at least 18 years old to use our services or our Platform. Individuals under the age of 18, or applicable age of maturity, may utilize our Platform and services only with involvement of a parent or legal guardian, under such person’s account. Regardless, all Personal Data which we may process shall be in accordance with this Policy and other applicable laws.
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">COLLECTION OF PERSONAL DATA</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         In the course of your engagement with us or with third parties through our Platform, we may collect your Personal Data in the following ways:
                     </p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Automatic Information collection: We may automatically collect Information upon your engagement with us or our Platform through your computer, mobile phones, forms, documents made available to us, other access devices like a webservice call. We also collect anonymous information through our use of cookies and web beacons to customize your experience of our Platform and to improve account security. You may decline our use of cookies, unless same is mandatory for the use of our Platform. Please note however that refusal to permit the use of cookies may affect your use of our Platform.</li>
                         <li>Information from downloads: When you download or use our digital Platform, or access any of our site, we may receive information about your location and your electronic device, including a unique identifier for your device. We may use this information to provide you with location-based services, such as advertisements, search results, and other personalized content. You may disable your location in the settings menu of the device.</li>
                         <li>Physically or Digitally Provided Information: We may collect and process your information when you create and/or update your account on our Platform; complete forms, questionnaires, surveys etc. We may also collect Information from the data you provide to us through documents, letters, e-mail, agreements, correspondence, ID cards, passports, or through any other means by which you willfully provide information to us.</li>
@@ -60,10 +60,10 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">USING YOUR PERSONAL INFORMATION</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         In the course of your engagements with us or through our Platform, we collect personal information for various legal reasons, largely to enable us to personalize your experience and to provide a more efficient service to you. Some of the reasons we collect Information are to:
                     </p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Provide services and customer support</li>
                         <li>Process your transactions, payment requests, and send notices about transactions</li>
                         <li>Create an account with us for the provision or use of our services</li>
@@ -84,14 +84,14 @@ const PrivacyPolicy = () => {
                         <li>Investigate and respond to your complaints or enquiries</li>
                         <li>Process your access to our services, Platform, or functions from time to time</li>
                     </ol>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         If we intend to use any personal Information in any manner that is not consistent with this Privacy Policy, you will be informed of such anticipated use prior to or at the time at which the personal Information is required and obtain your consent.
                     </p>
                 </article>
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">STORAGE AND PROTECTION OF YOUR DATA</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         We protect your personal Information using physical, technical, and administrative security measures to reduce the risks of loss, misuse, unauthorized access, disclosure and alteration. Some of our safeguards include ensuring that sensitive data are encrypted and stored in a secure manner with only authorised users having access to this information. Access to our platform is restricted to authorized users only. Your Information is also stored on our secure servers as well as secure physical locations and cloud infrastructure. All information are stored in data centers which is collocated out of our office environment, this is to ensure security of data and also availability of data when required.
                         <br />
                         <br />
@@ -100,7 +100,7 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">PROCESSING YOUR INFORMATION</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         In order to execute our obligations to you or process your transactions, we may be required to process your Information, such as your name, account number, account ID, e-wallet account, contact details, shipping and billing address, or other information needed to complete the transaction. We also work with third parties, including financial institutions, vendors, service providers, who at one point or the other facilitate transactions executed on our Platform For completeness, in the course of your engagement with us or use of our services and Platform, we may share your information with different stakeholders, including but not limited to Financial institutions; service providers; Credit bureaus and collection agencies to report account or credit information; Agenpo (including subsidiaries and affiliates); regulatory or judicial authorities; or other third parties pursuant to a subpoena, court order, or other legal process or requirement applicable to Agenpo. Please note that the parties mentioned above may be within or outside Nigeria.
                         <br />
                         <br />
@@ -112,10 +112,10 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">YOUR RIGHTS</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         You have the following rights regarding your personal Information collected by us:
                     </p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Right to access your personal Information being held by us. Request for such information may be sent to contact@agenpo.com;</li>
                         <li>Right to request that your personal Data be made available to you in an electronic format or that it should be sent to a third party (Kindly note that we have the right to decline such request if it is too frequent, unreasonable, and likely to cause substantial cost to us. In any event, we will communicate the reason for our refusal)</li>
                         <li>Right to rectify any inaccurate, incomplete Information. As such, if you discover any inaccuracy in your personal Information, kindly notify us promptly and provide us with documentary evidence to enable us to update the requisite changes</li>
@@ -126,14 +126,14 @@ const PrivacyPolicy = () => {
                         <li>Right to lodge complaints with relevant authorities</li>
                         <li>Right to information regarding the existence of automated decision-making, including profiling and meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing</li>
                     </ol>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         If we intend to use any personal Information in any manner that is not consistent with this Privacy Policy, you will be informed of such anticipated use prior to or at the time at which the personal Information is required and obtain your consent.
                     </p>
                 </article>
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">SOFTWARE</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Cookies are small pieces of data, stored in text files, that are stored on your computer or other device when websites are loaded in a browser, and which collects information about user actions on a site.
                         <br />
                         <br />
@@ -145,13 +145,13 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">COOKIE POLICY</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         If you download or use our software, such as a stand-alone software product, an app, or a browser plugin, you agree that from time to time, the software may download and install upgrades, updates and additional features from us in order to improve, enhance, and further develop the software.
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">WHAT TYPE OF COOKIES DO WE USE?</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Temporary cookies: This is also known as 'session cookies'; it helps our site and platform to recognise users, temporary memorize their online activities and the information provided when they navigate through a website. Session cookies only retain information about your activities for as long as you are on the website. Once the web browser is closed, the cookies are automatically deleted.
                         <br />
                         <br />
@@ -160,12 +160,12 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">WHY WE USE COOKIES?</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Cookies store helpful information to enhance users' experiences on our site, and possibly to improve our ability to reconnect with you later. They are used to remember you and your preferences such as your preferred language, device settings, browsing activities and other useful information, help you navigate between pages efficiently, and generally improve your experience in using our services.
                         <br />
                         We use these cookies as follows
                     </p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Authentication: We use cookies and similar technologies to recognize you when you visit our site. If you're signed into our website or mobile app, it helps us show you the right information and personalize your experience in line with your settings. Cookies also enables us to identify you and verify your account.</li>
                         <li>Security: We use cookies to make your interactions with our services and platform faster and more secure. For example, we use cookies to enable and support our security features, keep your account safe and to help us detect malicious activity and violations of our terms and conditions of use.</li>
                         <li>Preferences, features and services: We use cookies to enable the functionality of our services, such as helping you to fill out forms on our services easily and providing you with features, insights and customized content. We also use it to remember information about your activities on our platform and your preferences.</li>
@@ -174,10 +174,10 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">WHERE WE PLACE COOKIES</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         We set cookies in a number of different locations across our services. These locations may include:
                     </p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Our website - <a href="https://agenpo.com">https://agenpo.com</a> and other services</li>
                         <li>Our mobile applications</li>
                         <li>E-mails (We may use cookies in some of our emails to enable us to understand how you interact with our emails. It also helps us to improve our future email communications with you. Depending on your email or browser settings, cookies in our emails may be automatically accepted.)</li>
@@ -185,7 +185,7 @@ const PrivacyPolicy = () => {
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">CONTROLLING COOKIES</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         We will always ask for your consent to accept the use of cookies on your device. You can freely decline our cookies when you see our “accept cookies” request or through your browser settings. Cookies are optional unless they are required to prevent fraud or ensure the security of the Platform we control. You may also configure your specific browser or email settings to automatically reject cookies. You may also erase cookies stored on your device through your browser settings or by deleting the folder or file where they are stored on your device.
                         <br />
                         <br />
@@ -194,7 +194,7 @@ const PrivacyPolicy = () => {
                         <br />
                         Agenpo may revise this Cookies Policy to reflect changes in the law, our data collection and use practices, the features of our site, or advancements in technology. If we make any material changes, we will notify you by email or through a prominent notice on our site/platform prior to such change.
                     </p>
-                    <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                    <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                         <li>Our website - <a href="https://agenpo.com">https://agenpo.com</a> and other services</li>
                         <li>Our mobile applications</li>
                         <li>E-mails (We may use cookies in some of our emails to enable us to understand how you interact with our emails. It also helps us to improve our future email communications with you. Depending on your email or browser settings, cookies in our emails may be automatically accepted.)</li>
@@ -203,8 +203,8 @@ const PrivacyPolicy = () => {
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">DATA RETENTION POLICY</h2>
-                    <p className="text-gray-700 lg:text-xl font-medium">Introduction</p>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700 font-medium">Introduction</p>
+                    <p className="text-gray-700">
                         This Data Retention Policy (the “Policy”) sets out how Agenpo retains Records (defined below) necessary for its business operations, contractual obligations, legal, audit and regulatory compliance, and when we may destroy such Records, whilst promoting orderly and efficient data management. This ensures compliance with the data protection laws and the duty of confidentiality to which we are bound. We retain your information for as long as necessary for the purpose(s) for which it was collected. The period of data storage and retention is subject to legal, regulatory, administrative and operational requirements.
                         <br />
                         <br />
@@ -225,7 +225,7 @@ const PrivacyPolicy = () => {
                         <span className="font-medium">Security Measures</span>
                         <br />
                         In addition to other existing data protection measures being implemented by Agenpo, we will ensure that the following measures are in place to protect the security of retained Records:
-                        <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                        <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                             <li>All Records received and retained through emails must be encrypted and/or password protected and will only be transmitted and stored over secure networks</li>
                             <li>All Records retained physically (in hardcopy form) will be stored in a secure container, file or folder, marked “confidential” and kept in a safe location</li>
                             <li>Records whether physical or electronic will be stored in secure folders and will not be left unattended</li>
@@ -258,7 +258,7 @@ const PrivacyPolicy = () => {
                         Records will not be kept after the retention period unless:
                         <br />
                         <br />
-                        <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                        <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                             <li>The Record is the subject of a pending litigation, administrative or regulatory proceedings. In these circumstances, destruction will be delayed until such regulatory proceedings have been completed, at which time a new retention period will be created.</li>
                             <li>The Record has long-term value for Agenpo's statutory or regulatory obligations</li>
                             <li>Agenpo determines that such Record will be permanently stored, provided that no legal, regulatory or contractual breach will occur by the permanent retention of such record.</li>
@@ -269,7 +269,7 @@ const PrivacyPolicy = () => {
                         Agenpo is committed to the secure and safe disposal of any Record in accordance with our contractual and legal obligations. Accordingly, when the Records have been retained until the end of their retention period, they can be destroyed in the following ways:
                         <br />
                         <br />
-                        <ol className="list-decimal text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                        <ol className="list-decimal text-gray-700 pl-4 lg:pl-0">
                             <li>Hardcopy of documents will be destroyed by shredding or burning</li>
                             <li>Non-sensitive information can be thrown in a normal trash bin and properly disposed.</li>
                             <li>Non-sensitive information can be thrown in a normal trash bin and properly disposed</li>
@@ -282,7 +282,7 @@ const PrivacyPolicy = () => {
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">DATA RETENTION SCHEDULE</h2>
-                    <p className="text-gray-700 lg:text-xl">The Retention schedule below will govern the period that Records will be retained in accordance with this Policy. Agenpo must comply with data protection laws, contractual or regulatory obligations which require that Records must not be kept longer than is necessary for the purpose for which it was collected. The Data Retention Schedule is organized as follows:</p>
+                    <p className="text-gray-700">The Retention schedule below will govern the period that Records will be retained in accordance with this Policy. Agenpo must comply with data protection laws, contractual or regulatory obligations which require that Records must not be kept longer than is necessary for the purpose for which it was collected. The Data Retention Schedule is organized as follows:</p>
                     <br />
                     <br />
 
@@ -410,7 +410,7 @@ const PrivacyPolicy = () => {
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">THIRD PARTY CONTRACT & SERVICE PROVIDERS DATA POLICY</h2>
                     <span className="text-gray-700 lg:text-xl font-medium">Data Transfer To Third Parties</span>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         We may share your personal data with our service providers, financial institutions, vendors, affiliates, subsidiaries, parent company, contractors, etc to assist us in providing, delivering, analyzing, administering, improving, and personalizing content that are delivered to you as part of our services. These include third parties who assist us in performing, delivering, or enhancing certain products and services related to the delivery and operation of our services; or who provide technical and/or customer support on our behalf; or who provide application or software development and quality assurance; or who provide verification functions, who process transactions and payment requests, research on user demographics, interests, and behaviour, and other products or services. These third-party service providers may also collect personal information about or from you in performing their services and/or functions on our website or Platform. We may also pass certain requests from you or your organization to these third-party service providers. Regardless of the third-party involved, any disclosure shall only be for a lawful purpose.
                         <br />
                         <br />
@@ -418,7 +418,7 @@ const PrivacyPolicy = () => {
                         <br />
                         <br />
                         We may from to time be required to share your personal data with a regulator, law enforcement body, government agency, court or other third party to
-                        <ol className="list-lowerRoman list-inside text-gray-700 lg:text-xl pl-4 lg:pl-0">
+                        <ol className="list-lowerRoman list-inside text-gray-700 pl-4 lg:pl-0">
                             <li>comply with the laws</li>
                             <li>enforce the terms of a contract and </li>
                             <li>protect the rights, property, or safety of Agenpo.</li>
@@ -457,22 +457,22 @@ const PrivacyPolicy = () => {
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">CONTACT US</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         If you have questions regarding your data privacy rights or would like to submit a related data privacy right request, kindly contact us via the information below:
                     </p>
-                    <ul className="text-gray-700 lg:text-xl">
+                    <ul className="text-gray-700 font-bold">
                         <li>AGENPO TECHNOLOGIES LTD</li>
                         <li>85 Great Portland Street, First Floor,</li>
                         <li>London W1W 7LT</li>
                         <li className="font-semibold">Email: <a href="mailto:contact@agenpo.com">contact@agenpo.com</a> </li>
                     </ul>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         Please allow up to 2 (two) days for requests to be processed. The Company reserves the right to charge a reasonable fee to process excessive or repeated requests.
                     </p>
                 </article>
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">AMENDMENT</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         We may amend or revise this Policy at any time by posting a revised version on our website. Notice of the amendment shall be posted on our website and the revised version will be effective from the date of publication. Kindly, note that your continued use of our Platform after the publication of the revised version constitutes your acceptance of our amended terms of the Policy.
                     </p>
 
