@@ -46,7 +46,7 @@ const Careers = () => {
                 </div>
             </section>
 
-            <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto lg:py-[92px]">
+            {/* <section className="w-full px-5 lg:px-0 lg:max-w-[1216px] mx-auto lg:py-[92px]">
                 <div className="flex flex-col items-center gap-3 lg:gap-8 w-full mx-auto text-center">
                     <h2 className="text-primary-acccent text-sm">OPEN ROLES</h2>
                     <h1 className="text-3xl lg:text-[82px] font-bold font-Manrope text-center text-title">
@@ -460,7 +460,7 @@ const Careers = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="relative py-6 lg:py-0 bg-white rounded-md w-full max-w-[1216px] mx-auto lg:px-0 overflow-hidden my-10">
                 <img src="./assets/images/leaf-left.png" alt="" className="hidden lg:block left-0 top-0 pointer-events-none" />
