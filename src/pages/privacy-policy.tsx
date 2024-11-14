@@ -481,7 +481,6 @@ const PrivacyPolicy = () => {
                         <button className="px-3 py-0.5 rounded-md bg-primary text-white hover:bg-primary/80 duration-300">Disagree</button>
                     </div>
                 </article>
-
             </section>
         </>
     )
