@@ -323,7 +323,7 @@ const TermsAndConditions = () => {
 
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-bold">22. NOTICE/CONTACT DETAILS</h2>
-                    <p className="text-gray-700 lg:text-xl">
+                    <p className="text-gray-700">
                         In the case of any complaints or notice of dispute or any other notification, please contact us at:
                     </p>
                     <ul className="text-gray-700">
