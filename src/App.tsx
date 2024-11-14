@@ -25,6 +25,7 @@ import FAQs from "./pages/faqs"
 import Produce from "./pages/produce"
 import PrivacyPolicy from "./pages/privacy-policy"
 import TermsAndConditions from "./pages/terms-and-conditions"
+import AntiMoneyLaunderingPolicy from "./pages/anti-money-laundering-policy"
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
 
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+              <Route path="/anti-money-laundering" element={<AntiMoneyLaunderingPolicy />} />
 
               {/* solutions */}
               <Route path="/FarmSider" element={<FarmSider />} />

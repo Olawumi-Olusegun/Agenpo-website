@@ -65,7 +65,8 @@ const DesktopNav = () => {
                             <div
                                 key={link.label}
                                 className="block group"
-                                onMouseEnter={() => handleMouseEnter(index)}
+                                onClick={() => handleMouseEnter(index)}
+                            // onMouseEnter={() => handleMouseEnter(index)}
 
                             >
                                 <Link

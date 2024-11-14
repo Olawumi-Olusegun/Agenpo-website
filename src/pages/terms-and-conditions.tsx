@@ -5,14 +5,14 @@ const TermsAndConditions = () => {
             <section className="w-full lg:max-w-[1209px] mx-auto py-5 px-5 lg:px-0">
                 <div className="flex flex-col items-center gap-5 w-full lg:lg:max-w-[977px] mx-auto text-center">
                     <h1 className="text-3xl md:text-5xl lg:text-[82px] font-bold font-Manrope text-center text-title">
-                        Anti-Money Laundering Policy
+                        Terms & Conditions
                     </h1>
                     <p className="w-full mx-auto font-Manrope lg:text-xl text-primary-acccent lg:pb-16">
-                        All you need to know about our anti-money laundering policy
+                        Explore AGENPO TECHNOLOGIES LTD terms and conditions
                     </p>
                 </div>
             </section>
-            <section className="w-full flex flex-col gap-6 lg:gap-12 px-5 lg:px-0 lg:max-w-[816px] mx-auto my-8 lg:my-16 ">
+            {/* <section className="w-full flex flex-col gap-6 lg:gap-12 px-5 lg:px-0 lg:max-w-[816px] mx-auto my-8 lg:my-16 ">
                 <article className="flex flex-col gap-4">
                     <h2 className="text-lg lg:text-xl text-gray-900 font-medium">INTRODUCTION</h2>
                     <p className="text-gray-700 lg:text-xl">
@@ -265,7 +265,7 @@ const TermsAndConditions = () => {
                         Agenpo shall assess and review this Data Management Policy from time to time, and may when necessary amend, suspend or rescind this Policy at any time. Whilst, the Company has made best efforts to define detailed procedures for implementation of this Policy, there may be occasions when certain matters are not addressed under this Policy. Such situation will be resolved in line with the broad intent of the Policy. The Company may also establish further rules and procedures, from time to time, to give effect to the intent of this Policy and further the objective of good corporate governance.
                     </p>
                 </article>
-            </section>
+            </section> */}
         </>
     )
 }
