@@ -18,6 +18,14 @@ export default {
           700: "#616161",
           600: "#757575",
         },
+      },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        upperRoman: 'upper-roman',
+        lowerRoman: 'lower-roman',
       }
     },
   },

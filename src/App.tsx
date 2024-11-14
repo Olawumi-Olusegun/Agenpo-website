@@ -23,6 +23,7 @@ import Blog from "./pages/blog"
 import Careers from "./pages/careers"
 import FAQs from "./pages/faqs"
 import Produce from "./pages/produce"
+import PrivacyPolicy from "./pages/privacy-policy"
 
 function App() {
   return (
@@ -51,6 +52,10 @@ function App() {
               <Route path="/careers" element={<Careers />} />
               <Route path="/produce" element={<Produce />} />
               <Route path="/faqs" element={<FAQs />} />
+
+
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/terms-and-conditions" element={<PrivacyPolicy />} />
 
               {/* solutions */}
               <Route path="/FarmSider" element={<FarmSider />} />

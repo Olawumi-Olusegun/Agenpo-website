@@ -78,9 +78,9 @@ const Footer = () => {
                 <div className="col-span-6 md:col-span-4 lg:col-span-2 flex flex-col gap-3">
                     <h2 className="text-title text-sm uppercase">LEGAL</h2>
                     <div className="flex flex-col gap-5 text-gray-700">
-                        <Link to={"#"}>Privacy Policy</Link>
-                        <Link to={"#"}>Terms & Conditions</Link>
-                        <Link to={"#"}>Anti-money laundering</Link>
+                        <Link to={"/privacy-policy"}>Privacy Policy</Link>
+                        <Link to={"/terms-and-conditions"}>Terms & Conditions</Link>
+                        <Link to={"/anti-money-laundering"}>Anti-money laundering</Link>
                     </div>
                 </div>
                 {/* Download Manual section */}
