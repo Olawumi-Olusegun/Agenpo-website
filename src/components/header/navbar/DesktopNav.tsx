@@ -34,7 +34,7 @@ const DesktopNav = () => {
 
     function handleMouseEnter(index: number) {
         if (links[index].subLinks) {
-            setHovering(index);
+            setHovering((prevState) => prevState === index ? null : index);
         } else {
             setHovering(null);
         }
