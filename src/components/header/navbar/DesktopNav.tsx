@@ -115,19 +115,38 @@ const DesktopNav = () => {
                                                 <div className={cn(`grid grid-cols-1 gap-y-6 h-full ${isSolutionsLabel && "lg:grid-cols-3"} ${isResourcesLabel && "lg:grid-cols-1"} `)}>
                                                     {subLink.subMenu && (
                                                         <>
-                                                            {subLink.subMenu.map((menuItem) => (
-                                                                <Link
-                                                                    key={menuItem.label}
-                                                                    to={menuItem.href}
-                                                                    onClick={toggleMenu}
-                                                                    className="text-muted block text-sm hover:text-accent transition duration-300 hover:bg-primary/5 rounded-md px-4 py-2"
-                                                                >
-                                                                    <div className="flex flex-col gap-2">
-                                                                        <span className="text-gray-800 font-bold">{menuItem.label}</span>
-                                                                        <span className="text-gray-700 text-sm">{menuItem.description}</span>
-                                                                    </div>
-                                                                </Link>
-                                                            ))}
+                                                            {subLink.subMenu.map((menuItem) => {
+
+                                                                if (menuItem.isExternalLink) {
+                                                                    return (
+                                                                        <a
+                                                                            key={menuItem.label}
+                                                                            href={menuItem.href}
+                                                                            onClick={toggleMenu}
+                                                                            className="text-muted block text-sm hover:text-accent transition duration-300 hover:bg-primary/5 rounded-md px-4 py-2"
+                                                                        >
+                                                                            <div className="flex flex-col gap-2">
+                                                                                <span className="text-gray-800 font-bold">{menuItem.label}</span>
+                                                                                <span className="text-gray-700 text-sm">{menuItem.description}</span>
+                                                                            </div>
+                                                                        </a>
+                                                                    )
+                                                                } else {
+                                                                    return (
+                                                                        <Link
+                                                                            key={menuItem.label}
+                                                                            to={menuItem.href}
+                                                                            onClick={toggleMenu}
+                                                                            className="text-muted block text-sm hover:text-accent transition duration-300 hover:bg-primary/5 rounded-md px-4 py-2"
+                                                                        >
+                                                                            <div className="flex flex-col gap-2">
+                                                                                <span className="text-gray-800 font-bold">{menuItem.label}</span>
+                                                                                <span className="text-gray-700 text-sm">{menuItem.description}</span>
+                                                                            </div>
+                                                                        </Link>
+                                                                    )
+                                                                }
+                                                            })}
                                                         </>
                                                     )}
                                                 </div>

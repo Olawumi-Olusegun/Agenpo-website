@@ -1,6 +1,6 @@
 export type SubLinks = {
     header?: string;
-    subMenu?: { label: string; href: string, description: string }[];
+    subMenu?: { label: string; href: string, description: string, isExternalLink?: boolean; }[];
     subImages?: { label: string; href: string; image: string }[];
   };
   
@@ -42,33 +42,37 @@ export type SubLinks = {
               },
               {
                 label: "AceTraedr",
-                href: "/AceTraedr",
+                href: "https://acetraedr.agenpo.com",
                 description: "Agro trading firms can buy, sell, and deliver quality-assured produce, making and receiving payments from any location.",
+                isExternalLink: true,
               },
               {
                 label: "Werhously",
-                href: "/Werhously",
-                description: "Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing.",
+                href: "https://werhously.agenpo.com",
+                description: "Agro warehouse managers can earn and manage their warehouse operations end-to-end.",
+                isExternalLink: true,
               },
               {
                 label: "Korprativ",
                 href: "/Korprativ",
-                description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
+                description: "Farming cooperatives can seamlessly collaborate and access financing and broader markets for their produce.",
               },
               {
                 label: "AgriGeitor",
                 href: "/AgriGeitor",
-                description: "Agro warehouse managers can earn and manage their warehouse operations end-to-end.",
+                description: "Individual produce aggregators can access a broad range of buyers for their aggregated produce and also get financing.",
               },
               {
                 label: "Haula",
-                href: "/Haula",
+                href: "https://haula.agenpo.com",
                 description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
+                isExternalLink: true,
               },
               {
                 label: "Coproma",
-                href: "/Coproma",
+                href: "https://coproma.agenpo.com",
                 description: "Food processors and manufacturers can access, order, receive, and pay for certified produce raw materials, while being able to lock-in prices for future delivery.",
+                isExternalLink: true,
               },
               {
                 label: "Inspecktr",

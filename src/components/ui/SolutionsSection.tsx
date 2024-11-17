@@ -98,8 +98,8 @@ type ImageProps = {
 };
 
 const Image = ({ src, alt }: ImageProps) => (
-    <div>
-        <img src={src} alt={alt} className="pointer-events-none" />
+    <div className='flex items-center justify-center'>
+        <img src={src} alt={alt} className="pointer-events-none object-center " />
     </div>
 );
 

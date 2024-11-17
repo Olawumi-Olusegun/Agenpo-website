@@ -120,15 +120,29 @@ export default function MobileNav() {
                                             <div className="space-y-2 border-l">
                                                 {subLink.subMenu && (
                                                     <>
-                                                        {subLink.subMenu.map((subItem) => (
-                                                            <Link
-                                                                to={subItem.href}
-                                                                key={subItem.label}
-                                                                className="p-2 hover:bg-primary/80 text-gray-700  hover:text-white duration-300 block text-sm transition pl-4"
-                                                            >
-                                                                {subItem.label}
-                                                            </Link>
-                                                        ))}
+                                                        {subLink.subMenu.map((subItem) => {
+                                                            if (subItem.isExternalLink) {
+                                                                return (
+                                                                    <a
+                                                                        href={subItem.href}
+                                                                        key={subItem.label}
+                                                                        className="p-2 hover:bg-primary/80 text-gray-700  hover:text-white duration-300 block text-sm transition pl-4"
+                                                                    >
+                                                                        {subItem.label}
+                                                                    </a>
+                                                                )
+                                                            } else {
+                                                                return (
+                                                                    <Link
+                                                                        to={subItem.href}
+                                                                        key={subItem.label}
+                                                                        className="p-2 hover:bg-primary/80 text-gray-700  hover:text-white duration-300 block text-sm transition pl-4"
+                                                                    >
+                                                                        {subItem.label}
+                                                                    </Link>
+                                                                )
+                                                            }
+                                                        })}
                                                     </>
                                                 )}
                                             </div>
