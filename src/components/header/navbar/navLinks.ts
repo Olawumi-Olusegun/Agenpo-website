@@ -42,13 +42,13 @@ export type SubLinks = {
               },
               {
                 label: "AceTraedr",
-                href: "https://acetraedr.agenpo.com",
+                href: "/AceTraedr",
                 description: "Agro trading firms can buy, sell, and deliver quality-assured produce, making and receiving payments from any location.",
                 isExternalLink: true,
               },
               {
                 label: "Werhously",
-                href: "https://werhously.agenpo.com",
+                href: "/Werhously",
                 description: "Agro warehouse managers can earn and manage their warehouse operations end-to-end.",
                 isExternalLink: true,
               },
@@ -64,13 +64,13 @@ export type SubLinks = {
               },
               {
                 label: "Haula",
-                href: "https://haula.agenpo.com",
+                href: "/Haula",
                 description: "Haula web app is the Uber for agro trucking companies, while Haula mobile app enables drivers to pick up and deliver certified produce using provided coordinates.",
                 isExternalLink: true,
               },
               {
                 label: "Coproma",
-                href: "https://coproma.agenpo.com",
+                href: "/Coproma",
                 description: "Food processors and manufacturers can access, order, receive, and pay for certified produce raw materials, while being able to lock-in prices for future delivery.",
                 isExternalLink: true,
               },
