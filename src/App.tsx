@@ -1,4 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import * as Sentry from "@sentry/react";
+
 import Home from "./pages"
 import RootLayout from "./pages/layouts/RootLayout"
 import Resources from "./pages/resources"
@@ -26,6 +28,21 @@ import Produce from "./pages/produce"
 import PrivacyPolicy from "./pages/privacy-policy"
 import TermsAndConditions from "./pages/terms-and-conditions"
 import AntiMoneyLaunderingPolicy from "./pages/anti-money-laundering-policy"
+
+import.meta.env.MODE === "production" && Sentry.init({
+  dsn: "https://7adafd55353783c530440b068768dabf@o4505317725503488.ingest.us.sentry.io/4508580049977344",
+  integrations: [
+    Sentry.browserTracingIntegration(),
+    Sentry.replayIntegration(),
+  ],
+  // Tracing
+  tracesSampleRate: 1.0,
+
+  tracePropagationTargets: ["localhost", /^https:\/\/yourserver\.io\/api/],
+  // Session Replay
+  replaysSessionSampleRate: 0.1,
+  replaysOnErrorSampleRate: 1.0,
+});
 
 function App() {
   return (
