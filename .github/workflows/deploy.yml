@@ -19,6 +19,38 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           echo -e "Host ec2\n\tHostName ${{ secrets.EC2_HOST }}\n\tUser ec2-user\n\tIdentityFile ~/.ssh/deploy_key\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
 
+      - name: Extract repository name
+        run: |
+          REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
+          case $REPO_NAME in
+            "Agenpo-website")
+              PRODUCT="landing"
+              ;;
+            "Acetraedr-web")
+              PRODUCT="acetraedr"
+              ;;
+            "Agenpo-admin")
+              PRODUCT="admin"
+              ;;
+            "Certoma-web")
+              PRODUCT="certoma"
+              ;;
+            "Coproma-web")
+              PRODUCT="coproma"
+              ;;
+            "Haula-web")
+              PRODUCT="haula"
+              ;;
+            "Werhously-web")
+              PRODUCT="werhously"
+              ;;
+            *)
+              echo "Unknown repository"
+              exit 1
+              ;;
+          esac
+          echo "PRODUCT=$PRODUCT" >> $GITHUB_ENV
+
       - name: Deploy to EC2
         run: |
-          ssh ec2 'cd /home/ec2-user/products/agenpo && ./deploy-agenpo.sh landing'
+          ssh ec2 "cd /home/ec2-user/products/agenpo && ./deploy-agenpo.sh ${{ env.PRODUCT }}"
