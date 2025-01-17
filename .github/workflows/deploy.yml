@@ -1,0 +1,24 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo -e "Host ec2\n\tHostName ${{ secrets.EC2_HOST }}\n\tUser ec2-user\n\tIdentityFile ~/.ssh/deploy_key\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+
+      - name: Deploy to EC2
+        run: |
+          ssh ec2 'cd /home/ec2-user/products/agenpo && ./deploy-agenpo.sh landing'
