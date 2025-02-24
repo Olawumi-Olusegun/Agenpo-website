@@ -1,7 +1,7 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import * as Sentry from "@sentry/react";
 
-import Home from "./pages"
+import Home from "./pages";
 import RootLayout from "./pages/layouts/RootLayout"
 import Resources from "./pages/resources"
 import Solutions from "./pages/solutions"
@@ -59,7 +59,6 @@ function App() {
             <meta property="og:image:height" content="35.76" />
           </Helmet>
           <Routes>
-
 
             <Route element={<RootLayout />}>
               <Route path="/" element={<Home />} />
