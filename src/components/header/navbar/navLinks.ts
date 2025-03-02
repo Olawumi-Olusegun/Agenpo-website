@@ -75,8 +75,8 @@ export type SubLinks = {
                 isExternalLink: true,
               },
               {
-                label: "Inspecktr",
-                href: "/Inspecktr",
+                label: "Inspektr",
+                href: "/Inspektr",
                 description: "Quality inspectors working with certification companies can record produce inspections and certifications electronically without paperwork.",
               },
               
