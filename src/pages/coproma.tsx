@@ -18,7 +18,7 @@ const Coproma = () => {
         <Hero.ButtonGroup>
           <Hero.Button
             className="group"
-            onClick={() => window.open("https://coproma.agenpo.com", "_blank")}
+            onClick={() => window.open("https://coproma.agenpo.com/onboarding", "_blank")}
           >
             Get Started
             <svg
@@ -48,7 +48,7 @@ const Coproma = () => {
 
           <Hero.Button
             className="bg-transparent outline outline-1 px-8 outline-primary text-primary"
-            onClick={() => window.open("https://coproma.agenpo.com", "_blank")}
+            onClick={() => window.open("https://coproma.agenpo.com/login", "_blank")}
           >
             Log In
           </Hero.Button>
@@ -70,7 +70,7 @@ const Coproma = () => {
             users of AceTraedr (traders/suppliers) that include what to deliver,
             where to deliver, when to deliver and amount to deliver. While it
             serves existing food processors, it also eases planning for
-            prospective food processors/manufacturers because they don’t have to
+            prospective food processors/manufacturers because they don't have to
             factor in raw materials supply logistics. One of the beauties of
             Coproma is that only certified produce flows through it.
           </SolutionsSection.Description>
@@ -134,7 +134,7 @@ const Coproma = () => {
             </p>
             <div className="flex flex-wrap items-center gap-5">
               <Link
-                to="https://coproma.agenpo.com"
+                to="https://coproma.agenpo.com/onboarding"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent"
@@ -165,7 +165,7 @@ const Coproma = () => {
                 </svg>
               </Link>
               <Link
-                to="https://coproma.agenpo.com"
+                to="https://coproma.agenpo.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-white text-primary border border-primary"

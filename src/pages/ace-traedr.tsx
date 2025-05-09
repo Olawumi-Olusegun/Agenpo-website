@@ -19,7 +19,7 @@ const AceTraedr = () => {
           <Hero.Button
             className=""
             onClick={() =>
-              window.open("https://acetraedr.agenpo.com", "_blank")
+              window.open("https://acetraedr.agenpo.com/onboarding", "_blank")
             }
           >
             Get Started
@@ -50,7 +50,7 @@ const AceTraedr = () => {
           <Hero.Button
             className="bg-transparent outline outline-1 px-8 outline-primary text-primary"
             onClick={() =>
-              window.open("https://acetraedr.agenpo.com", "_blank")
+              window.open("https://acetraedr.agenpo.com/login", "_blank")
             }
           >
             Log In
@@ -134,7 +134,7 @@ const AceTraedr = () => {
 
             <div className="flex flex-wrap items-center gap-5">
               <Link
-                to="https://acetraedr.agenpo.com"
+                to="https://acetraedr.agenpo.com/onboarding"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent"
@@ -165,7 +165,7 @@ const AceTraedr = () => {
                 </svg>
               </Link>
               <Link
-                to="https://acetraedr.agenpo.com"
+                to="https://acetraedr.agenpo.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-white text-primary border border-primary"

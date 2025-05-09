@@ -18,7 +18,7 @@ const Haula = () => {
         <Hero.ButtonGroup>
           <Hero.Button
             className=""
-            onClick={() => window.open("https://haula.agenpo.com", "_blank")}
+            onClick={() => window.open("https://haula.agenpo.com/onboarding", "_blank")}
           >
             Get Started
             <svg
@@ -47,7 +47,7 @@ const Haula = () => {
 
           <Hero.Button
             className="bg-transparent outline outline-1 px-8 outline-primary text-primary"
-            onClick={() => window.open("https://haula.agenpo.com", "_blank")}
+            onClick={() => window.open("https://haula.agenpo.com/login", "_blank")}
           >
             Log In
           </Hero.Button>
@@ -141,7 +141,7 @@ const Haula = () => {
             </p>
             <div className="flex flex-wrap items-center gap-5">
               <Link
-                to="https://haula.agenpo.com"
+                to="https://haula.agenpo.com/onboarding"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent"
@@ -172,7 +172,7 @@ const Haula = () => {
                 </svg>
               </Link>
               <Link
-                to="https://haula.agenpo.com"
+                to="https://haula.agenpo.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-white text-primary border border-primary"

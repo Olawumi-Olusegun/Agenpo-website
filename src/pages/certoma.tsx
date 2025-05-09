@@ -18,7 +18,7 @@ const Certoma = () => {
         <Hero.ButtonGroup>
           <Hero.Button
             className=""
-            onClick={() => window.open("https://certoma.agenpo.com", "_blank")}
+            onClick={() => window.open("https://certoma.agenpo.com/onboarding", "_blank")}
           >
             Get Started
             <svg
@@ -47,7 +47,7 @@ const Certoma = () => {
 
           <Hero.Button
             className="bg-transparent outline outline-1 px-8 outline-primary text-primary"
-            onClick={() => window.open("https://certoma.agenpo.com", "_blank")}
+            onClick={() => window.open("https://certoma.agenpo.com/login", "_blank")}
           >
             Log In
           </Hero.Button>
@@ -129,7 +129,7 @@ const Certoma = () => {
 
             <div className="flex flex-wrap items-center gap-5">
               <Link
-                to="https://certoma.agenpo.com"
+                to="https://certoma.agenpo.com/onboarding"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent"
@@ -160,7 +160,7 @@ const Certoma = () => {
                 </svg>
               </Link>
               <Link
-                to="https://certoma.agenpo.com"
+                to="https://certoma.agenpo.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-white text-primary border border-primary"

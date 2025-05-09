@@ -19,7 +19,7 @@ const Werhously = () => {
           <Hero.Button
             className="w-full md:w-fit"
             onClick={() =>
-              window.open("https://werhously.agenpo.com", "_blank")
+              window.open("https://werhously.agenpo.com/onboarding", "_blank")
             }
           >
             Get Started
@@ -50,7 +50,7 @@ const Werhously = () => {
           <Hero.Button
             className="w-full md:w-fit bg-transparent outline outline-1 px-8 outline-primary text-primary"
             onClick={() =>
-              window.open("https://werhously.agenpo.com", "_blank")
+              window.open("https://werhously.agenpo.com/login", "_blank")
             }
           >
             Log In
@@ -141,7 +141,7 @@ const Werhously = () => {
 
             <div className="flex flex-wrap items-center gap-5">
               <Link
-                to="https://werhously.agenpo.com"
+                to="https://werhously.agenpo.com/onboarding"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-primary hover:bg-opacity-90 text-white border border-transparent"
@@ -172,7 +172,7 @@ const Werhously = () => {
                 </svg>
               </Link>
               <Link
-                to="https://werhously.agenpo.com"
+                to="https://werhously.agenpo.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full lg:w-fit px-6 py-3 rounded-2xl bg-white text-primary border border-primary"
